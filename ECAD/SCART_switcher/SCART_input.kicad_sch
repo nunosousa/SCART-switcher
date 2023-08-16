@@ -1561,7 +1561,7 @@
     (property "Value" "SCART-F" (at 75.692 36.068 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 75.692 70.358 0)
+    (property "Footprint" "SCART:SCART-F" (at 75.692 70.358 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" " ~" (at 75.692 70.358 0)

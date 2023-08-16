@@ -334,6 +334,10 @@
     [
       "6562ea38-5963-42b2-a0ef-a4a12a4c652f",
       "SCART output"
+    ],
+    [
+      "767093fd-244d-47aa-bb03-1a1276be8d22",
+      "Priority Encoder"
     ]
   ],
   "text_variables": {}

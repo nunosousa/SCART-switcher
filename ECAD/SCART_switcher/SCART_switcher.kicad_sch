@@ -8,14 +8,14 @@
   )
 
 
-  (sheet (at 125.984 42.672) (size 36.322 23.622) (fields_autoplaced)
+  (sheet (at 235.966 79.502) (size 36.322 23.622) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 6562ea38-5963-42b2-a0ef-a4a12a4c652f)
-    (property "Sheetname" "SCART output" (at 125.984 41.9604 0)
+    (property "Sheetname" "SCART output" (at 235.966 78.7904 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheetfile" "SCART_output.kicad_sch" (at 125.984 66.8786 0)
+    (property "Sheetfile" "SCART_output.kicad_sch" (at 235.966 103.7086 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -38,6 +38,23 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 133.604 75.946) (size 40.386 36.068) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 767093fd-244d-47aa-bb03-1a1276be8d22)
+    (property "Sheetname" "Priority Encoder" (at 133.604 75.2344 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "priority_encoder.kicad_sch" (at 133.604 112.5986 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "SCART_switcher"
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180" (page "4"))
       )
     )
   )
