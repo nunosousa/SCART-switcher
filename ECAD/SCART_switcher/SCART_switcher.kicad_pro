@@ -338,6 +338,42 @@
     [
       "767093fd-244d-47aa-bb03-1a1276be8d22",
       "Priority Encoder"
+    ],
+    [
+      "8ea6db35-25d0-43bc-9de5-3ca23502dcdc",
+      "SCART input 2"
+    ],
+    [
+      "272a4677-3ef2-418e-abc5-b29f59e726f9",
+      "SCART input 3"
+    ],
+    [
+      "56b7edd2-65bf-4844-b6bd-3868b6562f83",
+      "SCART input 4"
+    ],
+    [
+      "a066fdde-5f40-4269-95c1-258d611fd7cb",
+      "SCART input 5"
+    ],
+    [
+      "ec158eb5-f3e0-409c-b64c-a90e3358941f",
+      "SCART input 6"
+    ],
+    [
+      "6c53b757-b2e6-4d60-b760-4a4a0f832c07",
+      "SCART input 7"
+    ],
+    [
+      "0223a704-ac47-44ed-9ba1-f418acceedb3",
+      "SCART input 8"
+    ],
+    [
+      "2ffa7ecd-d29d-4261-a577-43650ca26099",
+      "SCART input 9"
+    ],
+    [
+      "f71a1287-269d-4354-9179-cb80a7e1dbca",
+      "SCART input 10"
     ]
   ],
   "text_variables": {}
