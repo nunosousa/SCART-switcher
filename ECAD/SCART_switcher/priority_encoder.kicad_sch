@@ -766,7 +766,7 @@
   (symbol (lib_id "74xGxx:74AHC1G08") (at 181.102 149.606 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 17177395-7207-462d-8a9d-76ce77753225)
-    (property "Reference" "U10" (at 193.548 145.4151 0)
+    (property "Reference" "U12" (at 193.548 145.4151 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHC1G08" (at 193.548 147.9551 0)
@@ -786,7 +786,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "U10") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -814,7 +814,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -823,7 +823,7 @@
   (symbol (lib_id "74xGxx:74AHC1G14") (at 243.078 31.496 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ee29ad9-a750-41a5-b1e4-d482aa7a1c34)
-    (property "Reference" "U11" (at 255.27 27.5591 0)
+    (property "Reference" "U13" (at 255.27 27.5591 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHC1G14" (at 255.27 30.0991 0)
@@ -842,7 +842,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "U11") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -851,7 +851,7 @@
   (symbol (lib_id "74xGxx:74AHC1G04") (at 144.78 72.136 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3b221e69-07c1-49b2-8cd9-6a742684b568)
-    (property "Reference" "U4" (at 157.226 68.1991 0)
+    (property "Reference" "U6" (at 157.226 68.1991 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHC1G04" (at 157.226 70.7391 0)
@@ -870,7 +870,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "U4") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
@@ -879,7 +879,7 @@
   (symbol (lib_id "74xGxx:74AHC1G08") (at 181.102 106.172 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4bd2c177-e764-4bd5-9750-12873dfc87ca)
-    (property "Reference" "U9" (at 193.548 101.9811 0)
+    (property "Reference" "U11" (at 193.548 101.9811 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHC1G08" (at 193.548 104.5211 0)
@@ -899,7 +899,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "U9") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -940,7 +940,7 @@
   (symbol (lib_id "74xGxx:74AHC1G04") (at 144.78 115.57 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 52f2aa41-73a8-4a2a-831a-7adaea931e2a)
-    (property "Reference" "U5" (at 157.226 111.6331 0)
+    (property "Reference" "U7" (at 157.226 111.6331 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHC1G04" (at 157.226 114.1731 0)
@@ -959,7 +959,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "U5") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -968,7 +968,7 @@
   (symbol (lib_id "74xGxx:74AHC1G08") (at 162.306 88.646 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 62c47667-d4bf-4e67-bc16-55e7bc8ee024)
-    (property "Reference" "U6" (at 174.244 81.7179 90)
+    (property "Reference" "U8" (at 174.244 81.7179 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHC1G08" (at 174.244 84.2579 90)
@@ -988,7 +988,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "U6") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -997,7 +997,7 @@
   (symbol (lib_id "74xGxx:74AHC1G04") (at 144.78 43.434 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7ad8b233-e816-4b58-a8ae-77b67a19bfc5)
-    (property "Reference" "U3" (at 157.226 39.4971 0)
+    (property "Reference" "U5" (at 157.226 39.4971 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHC1G04" (at 157.226 42.0371 0)
@@ -1016,7 +1016,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "U3") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -1044,7 +1044,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -1053,7 +1053,7 @@
   (symbol (lib_id "74xGxx:74AHC1G08") (at 162.306 132.08 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c3b8aa70-eea2-4a60-a535-ffb7bc75a2f8)
-    (property "Reference" "U7" (at 174.244 125.1519 90)
+    (property "Reference" "U9" (at 174.244 125.1519 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHC1G08" (at 174.244 127.6919 90)
@@ -1073,7 +1073,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "U7") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -1082,7 +1082,7 @@
   (symbol (lib_id "74xGxx:74AHC1G08") (at 181.102 62.738 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d55c4d59-fded-4424-a984-84e7d0777237)
-    (property "Reference" "U8" (at 193.548 58.5471 0)
+    (property "Reference" "U10" (at 193.548 58.5471 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "74AHC1G08" (at 193.548 61.0871 0)
@@ -1102,7 +1102,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "U8") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -1137,7 +1137,7 @@
   (symbol (lib_id "Device:C") (at 221.234 40.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eb6d292d-c311-4d89-b556-d364422685ad)
-    (property "Reference" "C14" (at 217.678 39.37 0)
+    (property "Reference" "C15" (at 217.678 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2n2C" (at 217.678 41.91 0)
@@ -1154,7 +1154,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "C14") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -1182,7 +1182,7 @@
           (reference "#PWR01") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/767093fd-244d-47aa-bb03-1a1276be8d22"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
