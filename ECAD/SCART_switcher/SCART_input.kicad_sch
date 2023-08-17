@@ -1290,7 +1290,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 54d8d440-cdca-414c-8ccf-4fb8e8ab7aa6)
   )
-  (text "(*5)\nThe VIDEO_4_3 signal flags whether the video source is configured\nin the 4:3 format as function of FUNCTION signal voltage levels.\n\nFNC_IN1 FNC_IN2 VIDEO_4_3\n   0V      0V      0V\n   0V      3.3V    3.3V\n   3.3V    0V      3.3V\n   3.3V    3.3V    3.3V"
+  (text "(*5)\nThe VIDEO_4_3 signal flags whether the video source is configured\nin the 4:3 format as function of FUNCTION signal voltage levels.\n\nFNC_IN1 FNC_IN2 VIDEO_4_3\n   0V      0V      3.3V\n   0V      3.3V    0V\n   3.3V    0V      0V\n   3.3V    3.3V    0V"
     (at 111.76 96.52 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 615dd423-b8a3-4bca-b7bd-02d1e472740c)
@@ -3884,6 +3884,62 @@
     )
   )
 
+  (symbol (lib_id "74xGxx:74AHC1G02") (at 224.79 130.81 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a4249bf3-3e99-4641-a677-59f4eed46476)
+    (property "Reference" "U4" (at 237.49 135.89 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "74AHC1G02" (at 237.49 133.35 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 224.79 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 224.79 130.81 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 2b14ba66-c73f-436a-994b-5c22cab21b74))
+    (pin "2" (uuid ef7afe52-774d-4af2-9539-492ab3031161))
+    (pin "3" (uuid 4a2367c6-d7d9-4d96-8f7f-3b26fb337154))
+    (pin "4" (uuid 8c79dcc9-dbc2-40f3-9938-c54a8e41b1a4))
+    (pin "5" (uuid 48220928-d5ea-4a7c-9722-a48056ad26bf))
+    (instances
+      (project "SCART_switcher"
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
+          (reference "U4") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc"
+          (reference "U17") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
+          (reference "U21") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/56b7edd2-65bf-4844-b6bd-3868b6562f83"
+          (reference "U25") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/a066fdde-5f40-4269-95c1-258d611fd7cb"
+          (reference "U29") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/ec158eb5-f3e0-409c-b64c-a90e3358941f"
+          (reference "U33") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6c53b757-b2e6-4d60-b760-4a4a0f832c07"
+          (reference "U37") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/0223a704-ac47-44ed-9ba1-f418acceedb3"
+          (reference "U41") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/2ffa7ecd-d29d-4261-a577-43650ca26099"
+          (reference "U45") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/f71a1287-269d-4354-9179-cb80a7e1dbca"
+          (reference "U49") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 224.79 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a6a6e758-33a7-44a8-9ab8-9651985e8cd9)
@@ -4824,62 +4880,6 @@
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/f71a1287-269d-4354-9179-cb80a7e1dbca"
           (reference "R174") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "74xGxx:74AHC1G02") (at 224.79 130.81 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d3603d8b-4da8-490b-805a-ffae70412275)
-    (property "Reference" "U4" (at 236.22 135.89 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Value" "74AHC1G02" (at 236.22 133.35 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 224.79 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" (at 224.79 130.81 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cf64f0e6-b87a-40f5-bac5-47020de59b7a))
-    (pin "2" (uuid ccead5fc-3dbc-4626-81d2-753d3b24c59e))
-    (pin "3" (uuid 17ac8f4c-45c1-4bd1-b7d2-0809a079d061))
-    (pin "4" (uuid 95435324-ad6e-4d08-a523-21399482a95f))
-    (pin "5" (uuid f2243f05-fb73-4ef8-9909-1de5fbd2aa37))
-    (instances
-      (project "SCART_switcher"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
-          (reference "U4") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc"
-          (reference "U17") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
-          (reference "U21") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/56b7edd2-65bf-4844-b6bd-3868b6562f83"
-          (reference "U25") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/a066fdde-5f40-4269-95c1-258d611fd7cb"
-          (reference "U29") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/ec158eb5-f3e0-409c-b64c-a90e3358941f"
-          (reference "U33") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6c53b757-b2e6-4d60-b760-4a4a0f832c07"
-          (reference "U37") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/0223a704-ac47-44ed-9ba1-f418acceedb3"
-          (reference "U41") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/2ffa7ecd-d29d-4261-a577-43650ca26099"
-          (reference "U45") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/f71a1287-269d-4354-9179-cb80a7e1dbca"
-          (reference "U49") (unit 1)
         )
       )
     )
