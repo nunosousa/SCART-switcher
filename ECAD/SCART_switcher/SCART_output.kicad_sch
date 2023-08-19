@@ -856,7 +856,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0c7da470-496e-422b-97ca-08cfbe1b03c3)
   )
-  (hierarchical_label "IN_ACTIVE" (shape input) (at 55.88 83.82 180) (fields_autoplaced)
+  (hierarchical_label "OUT_ACTIVE" (shape input) (at 55.88 83.82 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 125a89a4-6b4a-4f07-954b-3d13974e11b5)
   )
