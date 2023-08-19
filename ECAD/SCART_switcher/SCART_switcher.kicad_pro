@@ -374,6 +374,10 @@
     [
       "f71a1287-269d-4354-9179-cb80a7e1dbca",
       "SCART input 10"
+    ],
+    [
+      "19b1c794-1d68-480b-a4cd-c99f5e9ef1e6",
+      "Power"
     ]
   ],
   "text_variables": {}
