@@ -1,10 +1,292 @@
 (kicad_sch (version 20230121) (generator eeschema)
 
-  (uuid 99afc707-7459-4517-9157-fa4e22fdb6ee)
+  (uuid 99138885-9dd5-43f3-b6bc-9fe064295ab7)
 
   (paper "A4")
 
   (lib_symbols
+    (symbol "power:+12V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+12V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+12V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+12V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+12V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+12V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "+3.3V" (at 0 3.556 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "+3.3V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "+3.3V_1_1"
+        (pin power_in line (at 0 0 90) (length 0) hide
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "#PWR" (at 0 -6.35 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "GND" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "global power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "GND_1_1"
+        (pin power_in line (at 0 0 270) (length 0) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
   )
 
+
+  (symbol (lib_id "power:+3.3V") (at 76.2 71.12 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 1947e4c2-4a22-442a-9172-6a9eecdf4519)
+    (property "Reference" "#PWR019" (at 76.2 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 76.2 66.548 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 76.2 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 76.2 71.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 12547754-982e-4abd-acc9-80302ff7a96e))
+    (instances
+      (project "SCART_switcher"
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
+          (reference "#PWR019") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc"
+          (reference "#PWR072") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
+          (reference "#PWR0109") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/56b7edd2-65bf-4844-b6bd-3868b6562f83"
+          (reference "#PWR0146") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/a066fdde-5f40-4269-95c1-258d611fd7cb"
+          (reference "#PWR0183") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/ec158eb5-f3e0-409c-b64c-a90e3358941f"
+          (reference "#PWR0220") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6c53b757-b2e6-4d60-b760-4a4a0f832c07"
+          (reference "#PWR0257") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/0223a704-ac47-44ed-9ba1-f418acceedb3"
+          (reference "#PWR0294") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/2ffa7ecd-d29d-4261-a577-43650ca26099"
+          (reference "#PWR0331") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/f71a1287-269d-4354-9179-cb80a7e1dbca"
+          (reference "#PWR0368") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
+          (reference "#PWR0388") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+12V") (at 64.77 66.04 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4ab2a255-f785-4a48-bddf-2f6e92ae4ba7)
+    (property "Reference" "#PWR038" (at 64.77 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+12V" (at 64.77 61.214 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 64.77 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 64.77 66.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 66068320-1db4-40bb-a3a5-0971e968296e))
+    (instances
+      (project "SCART_switcher"
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
+          (reference "#PWR038") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
+          (reference "#PWR0387") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 91.44 73.66 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c0f190f1-598c-418d-b8e1-9ee3799a3208)
+    (property "Reference" "#PWR027" (at 91.44 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 91.44 78.74 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 91.44 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 91.44 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid df6adf5b-567f-4291-a1f9-494d1cd05d58))
+    (instances
+      (project "SCART_switcher"
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
+          (reference "#PWR027") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc"
+          (reference "#PWR080") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
+          (reference "#PWR0117") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/56b7edd2-65bf-4844-b6bd-3868b6562f83"
+          (reference "#PWR0154") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/a066fdde-5f40-4269-95c1-258d611fd7cb"
+          (reference "#PWR0191") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/ec158eb5-f3e0-409c-b64c-a90e3358941f"
+          (reference "#PWR0228") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6c53b757-b2e6-4d60-b760-4a4a0f832c07"
+          (reference "#PWR0265") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/0223a704-ac47-44ed-9ba1-f418acceedb3"
+          (reference "#PWR0302") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/2ffa7ecd-d29d-4261-a577-43650ca26099"
+          (reference "#PWR0339") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/f71a1287-269d-4354-9179-cb80a7e1dbca"
+          (reference "#PWR0376") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
+          (reference "#PWR0389") (unit 1)
+        )
+      )
+    )
+  )
 )
