@@ -523,6 +523,46 @@
     [
       "19b1c794-1d68-480b-a4cd-c99f5e9ef1e6",
       "Power"
+    ],
+    [
+      "ac954273-0b1e-4cc7-8105-6d879a829625",
+      "Priority Level 1"
+    ],
+    [
+      "5f105f62-0bcf-4e33-8575-8869c34cc8e2",
+      "Priority Level 2"
+    ],
+    [
+      "da40f57b-d050-42f1-943d-6d1136fd05ba",
+      "Priority Level 3"
+    ],
+    [
+      "e2d3658f-f34b-4721-97b8-b7eba164d844",
+      "Priority Level 4"
+    ],
+    [
+      "e45efac5-0802-4def-838c-58a6ca166447",
+      "Priority Level 5"
+    ],
+    [
+      "27be51fb-0e8c-4956-bc2c-e48a6bb28ed2",
+      "Priority Level 6"
+    ],
+    [
+      "dc6d56fb-bdb0-4ecc-8a1a-ed62804f7dbb",
+      "Priority Level 7"
+    ],
+    [
+      "2f887179-bd41-4907-8b53-ba707c47e3b0",
+      "Priority Level 8"
+    ],
+    [
+      "f3189d6a-8c8d-437b-9f5d-14c8f4314717",
+      "Priority Level 0"
+    ],
+    [
+      "f91cc025-d915-4749-901f-f786648ef256",
+      "Priority Level 9"
     ]
   ],
   "text_variables": {}
