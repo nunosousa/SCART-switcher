@@ -1247,7 +1247,7 @@
   (symbol (lib_id "power:+12V") (at 134.62 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05107e50-e88a-45ae-a925-b14aa69f7b9b)
-    (property "Reference" "#PWR063" (at 134.62 73.66 0)
+    (property "Reference" "#PWR065" (at 134.62 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 134.62 65.024 0)
@@ -1263,7 +1263,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR063") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -1272,7 +1272,7 @@
   (symbol (lib_id "power:+12V") (at 115.57 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cdb8c1f-0222-44e8-b4f9-352f19ba7314)
-    (property "Reference" "#PWR059" (at 115.57 64.77 0)
+    (property "Reference" "#PWR061" (at 115.57 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 115.57 56.134 0)
@@ -1288,7 +1288,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -1372,7 +1372,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -1427,7 +1427,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -1465,7 +1465,7 @@
   (symbol (lib_id "Device:R") (at 134.62 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18191d2c-946a-4929-893f-8e067cccebbc)
-    (property "Reference" "R30" (at 136.398 90.17 0)
+    (property "Reference" "R32" (at 136.398 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kR" (at 136.398 92.71 0)
@@ -1485,7 +1485,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R30") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -1540,7 +1540,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -1549,7 +1549,7 @@
   (symbol (lib_id "Device:R") (at 87.63 76.2 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2105b306-e044-4084-84f2-e1a8f136d3d0)
-    (property "Reference" "R22" (at 87.63 82.042 90)
+    (property "Reference" "R24" (at 87.63 82.042 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10kR" (at 87.63 79.502 90)
@@ -1569,7 +1569,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R22") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1658,7 +1658,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -1713,7 +1713,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -1722,7 +1722,7 @@
   (symbol (lib_id "Device:R") (at 67.31 171.45 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 35217ca6-274b-4613-b880-ba82007eeb50)
-    (property "Reference" "R21" (at 67.31 177.292 90)
+    (property "Reference" "R23" (at 67.31 177.292 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10kR" (at 67.31 174.752 90)
@@ -1742,7 +1742,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R21") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )
@@ -1751,7 +1751,7 @@
   (symbol (lib_id "Transistor_BJT:BC847") (at 113.03 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 38fd14f4-1d50-4604-913b-cf3a93ab72b0)
-    (property "Reference" "Q6" (at 118.872 88.9 0)
+    (property "Reference" "Q7" (at 118.872 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC847" (at 118.872 91.44 0)
@@ -1772,7 +1772,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "Q6") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -1781,7 +1781,7 @@
   (symbol (lib_id "Device:R") (at 96.52 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3e393394-f2e7-43cd-bb13-e94eb02fb25c)
-    (property "Reference" "R24" (at 96.52 122.428 90)
+    (property "Reference" "R26" (at 96.52 122.428 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "600R" (at 96.52 124.968 90)
@@ -1801,7 +1801,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R24") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -1887,7 +1887,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -1896,7 +1896,7 @@
   (symbol (lib_id "Device:R") (at 115.57 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45c3a1f3-6b10-497d-9221-159a4c234b14)
-    (property "Reference" "R28" (at 117.348 78.74 0)
+    (property "Reference" "R30" (at 117.348 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kR" (at 117.348 81.28 0)
@@ -1916,7 +1916,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R28") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -2000,7 +2000,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -2009,7 +2009,7 @@
   (symbol (lib_id "Device:R") (at 134.62 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4fcee7ee-f977-4e14-892a-611ad2db8c1a)
-    (property "Reference" "R29" (at 136.398 82.55 0)
+    (property "Reference" "R31" (at 136.398 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kR" (at 136.398 85.09 0)
@@ -2029,7 +2029,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R29") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -2138,7 +2138,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -2147,7 +2147,7 @@
   (symbol (lib_id "Device:R") (at 111.76 128.27 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 619e77e3-39f7-40a7-84d5-1211e8cea436)
-    (property "Reference" "R26" (at 111.76 122.428 90)
+    (property "Reference" "R28" (at 111.76 122.428 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "600R" (at 111.76 124.968 90)
@@ -2167,7 +2167,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R26") (unit 1)
+          (reference "R28") (unit 1)
         )
       )
     )
@@ -2253,7 +2253,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -2262,7 +2262,7 @@
   (symbol (lib_id "power:+12V") (at 151.13 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72e73283-533d-4d3e-aa75-222aab369e01)
-    (property "Reference" "#PWR065" (at 151.13 96.52 0)
+    (property "Reference" "#PWR067" (at 151.13 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 151.13 87.884 0)
@@ -2278,7 +2278,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR065") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -2306,7 +2306,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -2334,7 +2334,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR062") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -2362,7 +2362,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -2417,7 +2417,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -2426,7 +2426,7 @@
   (symbol (lib_id "Transistor_BJT:BC857") (at 101.6 135.89 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9fa4a23b-4898-497b-a4de-8444484e9e35)
-    (property "Reference" "Q5" (at 107.95 137.16 0)
+    (property "Reference" "Q6" (at 107.95 137.16 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC857" (at 106.68 134.62 0)
@@ -2444,7 +2444,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "Q5") (unit 1)
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -2453,7 +2453,7 @@
   (symbol (lib_id "Transistor_BJT:BC847") (at 132.08 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aaf8b5a0-1540-4117-92ef-9338dfb1e712)
-    (property "Reference" "Q7" (at 137.922 73.66 0)
+    (property "Reference" "Q8" (at 137.922 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC847" (at 137.922 76.2 0)
@@ -2474,7 +2474,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "Q7") (unit 1)
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -2502,7 +2502,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -2620,7 +2620,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR067") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -2629,7 +2629,7 @@
   (symbol (lib_id "Device:R") (at 115.57 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bac333a4-19b7-4c94-b115-30a439c68227)
-    (property "Reference" "R27" (at 117.348 63.5 0)
+    (property "Reference" "R29" (at 117.348 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kR" (at 117.348 66.04 0)
@@ -2649,7 +2649,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R27") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -2687,7 +2687,7 @@
   (symbol (lib_id "Transistor_BJT:BC857") (at 81.28 179.07 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c25bf8f0-ef77-4b36-b727-855499855c62)
-    (property "Reference" "Q3" (at 80.01 187.96 90)
+    (property "Reference" "Q4" (at 80.01 187.96 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC857" (at 78.74 185.42 90)
@@ -2705,7 +2705,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "Q3") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -2762,7 +2762,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -2790,7 +2790,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -2845,7 +2845,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -2873,7 +2873,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -2882,7 +2882,7 @@
   (symbol (lib_id "Device:R") (at 240.03 87.63 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e28387a6-b68d-4658-b541-648246c8b826)
-    (property "Reference" "R33" (at 240.03 93.472 90)
+    (property "Reference" "R35" (at 240.03 93.472 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22kR" (at 240.03 90.932 90)
@@ -2902,7 +2902,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R33") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -2911,7 +2911,7 @@
   (symbol (lib_id "Device:R") (at 104.14 90.17 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e52776ab-83d6-4c04-b5ce-7949a9074374)
-    (property "Reference" "R25" (at 104.14 96.012 90)
+    (property "Reference" "R27" (at 104.14 96.012 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10kR" (at 104.14 93.472 90)
@@ -2931,7 +2931,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R25") (unit 1)
+          (reference "R27") (unit 1)
         )
       )
     )
@@ -2959,7 +2959,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -3014,7 +3014,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -3071,7 +3071,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR066") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -3080,7 +3080,7 @@
   (symbol (lib_id "Device:R") (at 151.13 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eee7043c-ec9f-4f0f-b34b-a43b779bc637)
-    (property "Reference" "R31" (at 151.13 73.66 90)
+    (property "Reference" "R33" (at 151.13 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 151.13 76.2 90)
@@ -3097,7 +3097,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R31") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -3106,7 +3106,7 @@
   (symbol (lib_id "Device:R") (at 91.44 181.61 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1408082-38a1-477f-8d86-fdfc02d222da)
-    (property "Reference" "R23" (at 91.44 175.26 90)
+    (property "Reference" "R25" (at 91.44 175.26 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 91.44 177.8 90)
@@ -3123,7 +3123,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R23") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -3151,7 +3151,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -3160,7 +3160,7 @@
   (symbol (lib_id "Device:R") (at 240.03 72.39 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6ec77c0-ecd7-4be5-835b-c20fa97f3557)
-    (property "Reference" "R32" (at 240.03 78.232 90)
+    (property "Reference" "R34" (at 240.03 78.232 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22kR" (at 240.03 75.692 90)
@@ -3180,7 +3180,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "R32") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -3235,7 +3235,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -3244,7 +3244,7 @@
   (symbol (lib_id "Transistor_BJT:BC847") (at 96.52 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe63c46d-7bf9-4101-9e58-0a86b2d75070)
-    (property "Reference" "Q4" (at 102.362 74.93 0)
+    (property "Reference" "Q5" (at 102.362 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC847" (at 102.362 77.47 0)
@@ -3265,7 +3265,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "Q4") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -3320,7 +3320,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
