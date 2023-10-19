@@ -563,6 +563,10 @@
     [
       "f91cc025-d915-4749-901f-f786648ef256",
       "Priority Level 9"
+    ],
+    [
+      "9f74dfb2-70cd-470e-9dfb-02936b5bb451",
+      "Audio output stage"
     ]
   ],
   "text_variables": {}
