@@ -709,15 +709,23 @@
     (uuid fe45be99-f187-473d-ad2e-357b4dd6664d)
   )
 
-  (text "Drain resistor\nto discharge\nthe DC blocking\ncapacitor."
-    (at 162.56 165.1 0)
+  (text "(*1)" (at 157.48 144.78 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b3f1ecc4-6375-42ab-92c5-103201f564e2)
+    (uuid 36829edc-6467-48de-808a-32d661396f8b)
   )
-  (text "10uC DC blocking\ncapacitor chosen\nassuming a load\nimpedance of 10k ohm.\nCut-off frequency at 1.6Hz."
-    (at 156.21 30.48 0)
+  (text "(*2)" (at 161.29 149.86 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid bba4406e-2d0b-4d33-8ce8-4c1a64f8c8ad)
+    (uuid 6f9d2279-9e58-440f-bdf5-581f2a59e279)
+  )
+  (text "(*2) Drain resistor to discharge the DC blocking capacitor."
+    (at 177.8 175.26 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9759435e-4957-48bb-af7b-8e86e9656930)
+  )
+  (text "(*1) 10uC DC blocking capacitor chosen assuming a load impedance of 10k ohm.\nCut-off frequency at 1.6Hz."
+    (at 177.8 171.45 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a2d1b3bb-a046-4537-8e4a-0870f7c02fd0)
   )
 
   (hierarchical_label "AUDIO_RIGHT_IN" (shape input) (at 96.52 67.31 180) (fields_autoplaced)
