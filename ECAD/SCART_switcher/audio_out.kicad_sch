@@ -940,7 +940,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 989dc63f-d75e-47b0-bbda-697010798195)
   )
-  (text "(*1) 10uC DC blocking capacitor chosen assuming a load impedance of 10k ohm.\nCut-off (-3 db point) frequency at 1.6Hz."
+  (text "(*1) 10uC DC blocking capacitor.\nAssuming a minimum load impedance of 10k ohm, the cut-off (-3 db point) frequency will be at 1.6Hz."
     (at 177.8 171.45 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a2d1b3bb-a046-4537-8e4a-0870f7c02fd0)
