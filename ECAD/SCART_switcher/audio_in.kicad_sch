@@ -1154,7 +1154,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c1269ebe-78ed-44bb-962f-9f3b8baa2926)
   )
-  (text "(*3) This JFET is added to improve channel isolation when this channel is off."
+  (text "(*3) This JFET is added to improve channel isolation when this input channel is off."
     (at 177.8 176.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid e2a88264-08a6-4fa7-a85c-18d4499b8f1a)
@@ -1915,10 +1915,13 @@
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 164.7952 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 163.83 135.89 0)
+    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191215_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf" (at 163.83 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MFN" "" (at 163.83 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN" "CL21B104KBCNNNC" (at 163.83 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6df9211a-ca80-4691-ae2e-c8882412905f))
