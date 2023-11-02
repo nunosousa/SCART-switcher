@@ -2273,7 +2273,7 @@
     (property "Reference" "R?" (at 187.96 125.7299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "500R" (at 187.96 128.2699 0)
+    (property "Value" "1kR" (at 187.96 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (at 183.642 127 90)
