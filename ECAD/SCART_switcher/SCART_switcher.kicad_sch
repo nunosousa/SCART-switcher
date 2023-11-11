@@ -2644,10 +2644,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 03276256-7ce3-4046-af22-d9ae3cdd5e30)
     )
-    (pin "BLANKING" output (at 63.5 29.21 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 8af0de09-7a5d-4705-9930-872503e42460)
-    )
     (pin "GREEN" output (at 63.5 24.13 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b95e0ce1-2054-4638-9ee4-5c7d7f2a5372)
@@ -2675,6 +2671,10 @@
     (pin "IN_ACTIVE" output (at 63.5 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 08c34277-67d6-42b8-bf95-84b24e4e3ae4)
+    )
+    (pin "BLANKING" output (at 63.5 29.21 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 2fad393a-2a3a-4534-b706-8a2208ff1d39)
     )
     (instances
       (project "SCART_switcher"
