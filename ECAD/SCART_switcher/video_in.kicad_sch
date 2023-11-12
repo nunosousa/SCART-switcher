@@ -1397,7 +1397,7 @@
     (property "Reference" "R?" (at 116.84 138.43 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4k7R" (at 116.84 140.97 0)
+    (property "Value" "10kR" (at 116.84 140.97 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (at 112.522 139.7 90)
