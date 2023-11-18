@@ -1312,7 +1312,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0af61bfe-a5a5-46dc-b632-c6c4dee26085)
   )
-  (text "Input conditioning circuit" (at 172.72 33.02 0)
+  (text "Input conditioning and switching stage" (at 166.37 31.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 0b8f02ce-fa7e-4ac4-aec8-9b13ced3cf97)
   )
