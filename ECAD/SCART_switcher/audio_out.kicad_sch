@@ -717,6 +717,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 36829edc-6467-48de-808a-32d661396f8b)
   )
+  (text "Signal buffering and double line amplifier stage" (at 123.19 21.59 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5d960438-05c3-4141-98a4-28fbfae7ae04)
+  )
   (text "(*3) Decoupling resistor to isolate the opamp from the line shunt-capacitance."
     (at 177.8 176.53 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
