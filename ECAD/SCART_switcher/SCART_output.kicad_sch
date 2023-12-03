@@ -1031,7 +1031,7 @@
   (symbol (lib_id "power:+12V") (at 118.11 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cdb8c1f-0222-44e8-b4f9-352f19ba7314)
-    (property "Reference" "#PWR021" (at 118.11 71.12 0)
+    (property "Reference" "#PWR023" (at 118.11 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 118.11 62.484 0)
@@ -1047,7 +1047,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1111,7 +1111,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 102.87 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19570174-9c37-4254-b75f-3b3fd53d83c8)
-    (property "Reference" "J14" (at 106.68 145.0732 0)
+    (property "Reference" "J3" (at 106.68 145.0732 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RCA Right" (at 106.68 147.6132 0)
@@ -1128,7 +1128,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "J14") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -1183,7 +1183,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -1301,7 +1301,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -1355,7 +1355,7 @@
           (reference "J?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "J2") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )
@@ -1419,7 +1419,7 @@
   (symbol (lib_id "Connector:Conn_Coaxial") (at 102.87 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5fefc6db-9723-46d6-9bbd-23b042e3724a)
-    (property "Reference" "J3" (at 106.68 127.2932 0)
+    (property "Reference" "J2" (at 106.68 127.2932 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RCA Left" (at 106.68 129.8332 0)
@@ -1436,7 +1436,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "J3") (unit 1)
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -1464,7 +1464,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -1579,7 +1579,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -1636,7 +1636,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR0884") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -1691,7 +1691,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -1747,7 +1747,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -1802,7 +1802,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -1883,7 +1883,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -1968,7 +1968,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
