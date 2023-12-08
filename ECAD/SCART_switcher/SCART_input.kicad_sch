@@ -1137,7 +1137,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d2969323-b586-4f9c-a8bd-8aecd5874e48)
   )
-  (hierarchical_label "VIDEO{slash}RGB_SYNC" (shape output) (at 118.11 158.75 0) (fields_autoplaced)
+  (hierarchical_label "VIDEO_RGB_SYNC" (shape output) (at 118.11 158.75 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid dbb0994d-bd63-437a-9242-8635a328815a)
   )
@@ -1770,58 +1770,6 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 228.6 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 64b458ca-7d83-4516-a109-4af6698ccfa0)
-    (property "Reference" "#PWR012" (at 228.6 76.2 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 228.6 74.93 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 228.6 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 228.6 69.85 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4a955e67-f43d-44e3-9a38-1fa8a3214890))
-    (instances
-      (project "SCART_switcher"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
-          (reference "#PWR012") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc"
-          (reference "#PWR043") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
-          (reference "#PWR059") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/56b7edd2-65bf-4844-b6bd-3868b6562f83"
-          (reference "#PWR075") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/a066fdde-5f40-4269-95c1-258d611fd7cb"
-          (reference "#PWR091") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/ec158eb5-f3e0-409c-b64c-a90e3358941f"
-          (reference "#PWR0107") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6c53b757-b2e6-4d60-b760-4a4a0f832c07"
-          (reference "#PWR0123") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/0223a704-ac47-44ed-9ba1-f418acceedb3"
-          (reference "#PWR0139") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/2ffa7ecd-d29d-4261-a577-43650ca26099"
-          (reference "#PWR0155") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/f71a1287-269d-4354-9179-cb80a7e1dbca"
-          (reference "#PWR0171") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Device:C") (at 264.16 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b3951f2-01b2-482f-9547-a7c337e14521)
@@ -2308,6 +2256,58 @@
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/f71a1287-269d-4354-9179-cb80a7e1dbca"
           (reference "#PWR0173") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 228.6 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b8782eb7-ce53-4096-897b-d4b0ecf26632)
+    (property "Reference" "#PWR012" (at 228.6 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 228.6 74.93 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 228.6 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 228.6 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 12b9fc85-6e45-4909-ba71-6d54df743630))
+    (instances
+      (project "SCART_switcher"
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
+          (reference "#PWR012") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc"
+          (reference "#PWR043") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
+          (reference "#PWR059") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/56b7edd2-65bf-4844-b6bd-3868b6562f83"
+          (reference "#PWR075") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/a066fdde-5f40-4269-95c1-258d611fd7cb"
+          (reference "#PWR091") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/ec158eb5-f3e0-409c-b64c-a90e3358941f"
+          (reference "#PWR0107") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6c53b757-b2e6-4d60-b760-4a4a0f832c07"
+          (reference "#PWR0123") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/0223a704-ac47-44ed-9ba1-f418acceedb3"
+          (reference "#PWR0139") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/2ffa7ecd-d29d-4261-a577-43650ca26099"
+          (reference "#PWR0155") (unit 1)
+        )
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/f71a1287-269d-4354-9179-cb80a7e1dbca"
+          (reference "#PWR0171") (unit 1)
         )
       )
     )
@@ -2912,10 +2912,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b0575e32-4485-4c55-a952-d1b95d9726f9)
     )
-    (pin "VIDEO{slash}RGB_SYNC_OUT" output (at 115.57 158.75 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid 5f9bc0fc-dba3-4742-aa30-7d7bb5c743c0)
-    )
     (pin "GREEN_OUT" output (at 115.57 163.83 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 944dd9d7-51b7-4dd3-a3a6-bf26766e10fb)
@@ -2923,10 +2919,6 @@
     (pin "BLUE_OUT" output (at 115.57 166.37 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 49215e14-b322-4c6a-8d74-557be474459a)
-    )
-    (pin "VIDEO{slash}RGB_SYNC_IN" input (at 67.31 158.75 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid ab29e320-441f-431e-92ae-4ca800535e4f)
     )
     (pin "RED_IN" input (at 67.31 161.29 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2951,6 +2943,14 @@
     (pin "BLANKING_IN" input (at 67.31 168.91 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 8ee07d06-1ea2-4440-87a5-b8ea11604e07)
+    )
+    (pin "VIDEO_RGB_SYNC_IN" input (at 67.31 158.75 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 163412e1-c6da-4dd2-ba09-c8474f517d6b)
+    )
+    (pin "VIDEO_RGB_SYNC_OUT" output (at 115.57 158.75 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid c1b005bc-a71f-45d9-89f7-355496438e8a)
     )
     (instances
       (project "SCART_switcher"
