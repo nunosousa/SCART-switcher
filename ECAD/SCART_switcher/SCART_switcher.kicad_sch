@@ -2164,7 +2164,7 @@
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cafafd87-ee80-4c7a-9a48-fd3c74d69422)
   )
-  (label "VIDEO_RGB_SYNC" (at 81.28 26.67 180)
+  (label "VIDEO_RGB_SYNC" (at 81.28 26.67 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid cc97ca1d-6611-4c63-966b-74d552aaf4ad)
   )
