@@ -356,68 +356,6 @@
         )
       )
     )
-    (symbol "Device:D_Zener" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "D_Zener" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Zener diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "D_Zener_0_1"
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy -1.27 1.27)
-            (xy -0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 1.27 1.27)
-            (xy -1.27 0)
-            (xy 1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "D_Zener_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:FerriteBead" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "FB" (at -3.81 0.635 90)
         (effects (font (size 1.27 1.27)))
@@ -599,6 +537,72 @@
         (pin passive line (at 0 -3.81 90) (length 1.27)
           (name "~" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "Diode:BZX84Cxx" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
+      (property "Reference" "D" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "BZX84Cxx" (at 0 -3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "zener diode" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "300mW Zener Diode, SOT-23" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "BZX84Cxx_0_1"
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy -1.27 -1.27)
+            (xy -1.27 1.27)
+            (xy -0.762 1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -1.27)
+            (xy 1.27 1.27)
+            (xy -1.27 0)
+            (xy 1.27 -1.27)
+          )
+          (stroke (width 0.254) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "BZX84Cxx_1_1"
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin no_connect line (at 1.27 0 180) (length 2.54) hide
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -3.81 0 0) (length 2.54)
+          (name "K" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -1361,9 +1365,6 @@
   (junction (at 87.63 143.51) (diameter 0) (color 0 0 0 0)
     (uuid 55daa2ff-71c0-4fc1-8da4-f1144e2c4fee)
   )
-  (junction (at 146.05 31.75) (diameter 0) (color 0 0 0 0)
-    (uuid 5b63987f-e1ee-4fd2-9272-5c4f217e7119)
-  )
   (junction (at 156.21 153.67) (diameter 0) (color 0 0 0 0)
     (uuid 5c7deca2-0b2b-477d-875d-0d9e94278456)
   )
@@ -1423,6 +1424,9 @@
   )
   (junction (at 95.25 31.75) (diameter 0) (color 0 0 0 0)
     (uuid f2bcd7b8-ff74-46d0-a1fc-b6d458a192a6)
+  )
+  (junction (at 146.05 31.75) (diameter 0) (color 0 0 0 0)
+    (uuid fac3efc1-8349-49d5-b20e-6d9e53a36727)
   )
 
   (no_connect (at 106.68 24.13) (uuid 3fa404e4-9d1f-4509-b815-a1f1246b70b8))
@@ -1869,6 +1873,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 861bf6b3-1c98-46cf-9507-2553328a6b14)
   )
+  (text "0.3W min" (at 257.81 34.29 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid b414d736-6e68-4b5a-a9df-170541c204b3)
+  )
   (text "5V power supply" (at 62.23 78.74 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ba1c64ef-b4e7-41e5-a337-78a11e31544f)
@@ -1921,7 +1929,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C20") (unit 1)
+          (reference "C21") (unit 1)
         )
       )
     )
@@ -2014,7 +2022,7 @@
           (reference "U?") (unit 2)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U15") (unit 2)
+          (reference "U14") (unit 2)
         )
       )
     )
@@ -2163,7 +2171,7 @@
       )
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C16") (unit 1)
+          (reference "C17") (unit 1)
         )
       )
     )
@@ -2191,7 +2199,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0176") (unit 1)
+          (reference "#PWR0174") (unit 1)
         )
       )
     )
@@ -2278,7 +2286,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C15") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )
@@ -2333,7 +2341,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0185") (unit 1)
+          (reference "#PWR0183") (unit 1)
         )
       )
     )
@@ -2361,7 +2369,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0177") (unit 1)
+          (reference "#PWR0175") (unit 1)
         )
       )
     )
@@ -2399,7 +2407,7 @@
           (reference "U?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U14") (unit 1)
+          (reference "U13") (unit 1)
         )
       )
     )
@@ -2515,7 +2523,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0944") (unit 1)
+          (reference "#PWR0190") (unit 1)
         )
       )
     )
@@ -2601,7 +2609,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R57") (unit 1)
+          (reference "R59") (unit 1)
         )
       )
     )
@@ -2656,7 +2664,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0190") (unit 1)
+          (reference "#PWR0188") (unit 1)
         )
       )
     )
@@ -2745,7 +2753,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0179") (unit 1)
+          (reference "#PWR0177") (unit 1)
         )
       )
     )
@@ -2800,7 +2808,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0178") (unit 1)
+          (reference "#PWR0176") (unit 1)
         )
       )
     )
@@ -2941,7 +2949,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R62") (unit 1)
+          (reference "R64") (unit 1)
         )
       )
     )
@@ -3028,7 +3036,7 @@
       )
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C22") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -3090,7 +3098,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C14") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -3206,7 +3214,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0943") (unit 1)
+          (reference "#PWR0189") (unit 1)
         )
       )
     )
@@ -3215,7 +3223,7 @@
   (symbol (lib_id "power:+9V") (at 109.22 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b18c1e9-40fd-4b3f-ad41-2bad1a2ecec7)
-    (property "Reference" "#PWR0189" (at 109.22 138.43 0)
+    (property "Reference" "#PWR0187" (at 109.22 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 109.22 129.54 0)
@@ -3231,7 +3239,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0189") (unit 1)
+          (reference "#PWR0187") (unit 1)
         )
       )
     )
@@ -3287,40 +3295,6 @@
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
           (reference "#PWR0192") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:D_Zener") (at 146.05 35.56 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 4bf11cc7-2245-4a39-b6f5-d1c4ef94fa8b)
-    (property "Reference" "D?" (at 148.59 34.2899 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "MMSZ5240BT1G" (at 148.59 36.8299 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Diode_SMD:D_SOD-123" (at 146.05 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1809291220_onsemi-MMSZ5240BT1G_C82084.pdf" (at 146.05 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "MMSZ5240BT1G" (at 146.05 35.56 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 70f6095c-0d3d-4369-b004-fe0185a13181))
-    (pin "2" (uuid 34f62517-282f-466a-8153-897e321ea368))
-    (instances
-      (project "PowerDeliveryBoard"
-        (path "/1b23c6f1-7fb3-40ef-b765-f3b58b1e810f"
-          (reference "D?") (unit 1)
-        )
-      )
-      (project "SCART_switcher"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "D22") (unit 1)
         )
       )
     )
@@ -3406,7 +3380,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R54") (unit 1)
+          (reference "R56") (unit 1)
         )
       )
     )
@@ -3499,7 +3473,7 @@
           (reference "U?") (unit 3)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U14") (unit 3)
+          (reference "U13") (unit 3)
         )
       )
     )
@@ -3563,7 +3537,7 @@
       )
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C12") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3631,7 +3605,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C24") (unit 1)
+          (reference "C25") (unit 1)
         )
       )
     )
@@ -3665,7 +3639,7 @@
   (symbol (lib_id "power:+9V") (at 91.44 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 639b6292-4041-40a9-abf6-23574461f190)
-    (property "Reference" "#PWR0186" (at 91.44 146.05 0)
+    (property "Reference" "#PWR0184" (at 91.44 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 91.44 137.16 0)
@@ -3681,7 +3655,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0186") (unit 1)
+          (reference "#PWR0184") (unit 1)
         )
       )
     )
@@ -3736,7 +3710,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0183") (unit 1)
+          (reference "#PWR0181") (unit 1)
         )
       )
     )
@@ -3907,7 +3881,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0187") (unit 1)
+          (reference "#PWR0185") (unit 1)
         )
       )
     )
@@ -3962,7 +3936,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0182") (unit 1)
+          (reference "#PWR0179") (unit 1)
         )
       )
     )
@@ -4000,7 +3974,7 @@
           (reference "U?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U15") (unit 1)
+          (reference "U14") (unit 1)
         )
       )
     )
@@ -4111,7 +4085,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R61") (unit 1)
+          (reference "R63") (unit 1)
         )
       )
     )
@@ -4384,7 +4358,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R55") (unit 1)
+          (reference "R57") (unit 1)
         )
       )
     )
@@ -4418,7 +4392,7 @@
       )
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R63") (unit 1)
+          (reference "R65") (unit 1)
         )
       )
     )
@@ -4541,7 +4515,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C18") (unit 1)
+          (reference "C19") (unit 1)
         )
       )
     )
@@ -4579,7 +4553,7 @@
           (reference "U?") (unit 2)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U14") (unit 2)
+          (reference "U13") (unit 2)
         )
       )
     )
@@ -4641,6 +4615,33 @@
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
           (reference "#PWR0210") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Diode:BZX84Cxx") (at 146.05 35.56 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid b88a1dfd-8186-40f4-83b1-1c3b8666ba84)
+    (property "Reference" "D22" (at 148.59 34.29 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "BZX84C10" (at 148.59 36.83 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Package_TO_SOT_SMD:SOT-23" (at 146.05 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "https://diotec.com/tl_files/diotec/files/pdf/datasheets/bzx84c2v4.pdf" (at 146.05 35.56 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "3" (uuid 1e44ef65-b5f4-4e9f-b852-74528b40a147))
+    (pin "1" (uuid decfd1b3-3241-41eb-bf4a-9be6209c9e60))
+    (pin "2" (uuid 89ad7d0c-738f-4e36-93d1-9cf27561e141))
+    (instances
+      (project "SCART_switcher"
+        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -4726,7 +4727,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R59") (unit 1)
+          (reference "R61") (unit 1)
         )
       )
     )
@@ -4781,7 +4782,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0188") (unit 1)
+          (reference "#PWR0186") (unit 1)
         )
       )
     )
@@ -4867,7 +4868,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R60") (unit 1)
+          (reference "R62") (unit 1)
         )
       )
     )
@@ -4901,7 +4902,7 @@
       )
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C212") (unit 1)
+          (reference "C15") (unit 1)
         )
       )
     )
@@ -4910,7 +4911,7 @@
   (symbol (lib_id "Regulator_Linear:L7805") (at 71.12 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bea49210-4ba4-4a04-8eef-ac4a85eba05f)
-    (property "Reference" "U12" (at 71.12 82.55 0)
+    (property "Reference" "U11" (at 71.12 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L7805" (at 71.12 85.09 0)
@@ -4928,7 +4929,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U12") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )
@@ -5017,7 +5018,7 @@
       )
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C213") (unit 1)
+          (reference "C16") (unit 1)
         )
       )
     )
@@ -5103,7 +5104,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R56") (unit 1)
+          (reference "R58") (unit 1)
         )
       )
     )
@@ -5219,7 +5220,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0181") (unit 1)
+          (reference "#PWR0178") (unit 1)
         )
       )
     )
@@ -5315,7 +5316,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C23") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -5389,7 +5390,7 @@
       )
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "Q22") (unit 1)
+          (reference "Q23") (unit 1)
         )
       )
     )
@@ -5484,7 +5485,7 @@
       )
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C13") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5518,7 +5519,7 @@
       )
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C21") (unit 1)
+          (reference "C22") (unit 1)
         )
       )
     )
@@ -5642,7 +5643,7 @@
           (reference "U?") (unit 3)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U15") (unit 3)
+          (reference "U14") (unit 3)
         )
       )
     )
@@ -5671,7 +5672,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C19") (unit 1)
+          (reference "C20") (unit 1)
         )
       )
     )
@@ -5726,7 +5727,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0184") (unit 1)
+          (reference "#PWR0182") (unit 1)
         )
       )
     )
@@ -5794,7 +5795,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C17") (unit 1)
+          (reference "C18") (unit 1)
         )
       )
     )
@@ -5831,7 +5832,7 @@
   (symbol (lib_id "Regulator_Linear:L7809") (at 71.12 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fda8609f-400a-4b1d-ac39-2849a5cebc84)
-    (property "Reference" "U13" (at 71.12 137.16 0)
+    (property "Reference" "U12" (at 71.12 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L7809" (at 71.12 139.7 0)
@@ -5849,7 +5850,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U13") (unit 1)
+          (reference "U12") (unit 1)
         )
       )
     )
@@ -5883,7 +5884,7 @@
       )
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R58") (unit 1)
+          (reference "R60") (unit 1)
         )
       )
     )
