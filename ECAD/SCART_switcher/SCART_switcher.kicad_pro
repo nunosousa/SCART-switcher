@@ -573,16 +573,16 @@
       "Audio input stage"
     ],
     [
+      "32c156af-ff54-4356-ac90-a2b1f82b1e02",
+      "Silent output"
+    ],
+    [
       "0117abb0-e8aa-4002-a68c-61b92aed6fa0",
       "Video input stage"
     ],
     [
       "ad3a0592-e2c6-4827-8dd3-54afc0bdac28",
       "Video output stage"
-    ],
-    [
-      "45065d08-b417-4621-b4a4-65949829b8d7",
-      "Dummy input"
     ],
     [
       "0117abb0-e8aa-4002-a68c-61b92aed6fa0",
