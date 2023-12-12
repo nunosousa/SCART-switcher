@@ -814,7 +814,7 @@
     (property "Value" "100nC" (at 94.996 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 92.4052 104.14 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 92.4052 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191215_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf" (at 91.44 100.33 0)
