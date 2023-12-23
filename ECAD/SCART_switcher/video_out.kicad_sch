@@ -1240,7 +1240,7 @@
   (symbol (lib_id "power:+2V5") (at 203.2 85.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 010267e8-d5fd-498d-9f11-beea28093b86)
-    (property "Reference" "#PWR0436" (at 203.2 81.28 0)
+    (property "Reference" "#PWR0439" (at 203.2 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 203.2 90.17 0)
@@ -1256,7 +1256,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0436") (unit 1)
+          (reference "#PWR0439") (unit 1)
         )
       )
     )
@@ -1287,7 +1287,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0420") (unit 1)
+          (reference "#PWR0423") (unit 1)
         )
       )
     )
@@ -1656,7 +1656,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0431") (unit 1)
+          (reference "#PWR0434") (unit 1)
         )
       )
     )
@@ -1665,7 +1665,7 @@
   (symbol (lib_id "power:+2V5") (at 50.8 45.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2304e398-ff04-49b0-90d9-b799c327f44b)
-    (property "Reference" "#PWR0413" (at 50.8 41.91 0)
+    (property "Reference" "#PWR0416" (at 50.8 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 50.8 50.8 0)
@@ -1681,7 +1681,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0413") (unit 1)
+          (reference "#PWR0416") (unit 1)
         )
       )
     )
@@ -1734,7 +1734,7 @@
   (symbol (lib_id "power:+2V5") (at 81.28 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25a562c4-858b-4b8c-be81-a44197e32ad7)
-    (property "Reference" "#PWR0421" (at 81.28 44.45 0)
+    (property "Reference" "#PWR0424" (at 81.28 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 81.28 53.34 0)
@@ -1750,7 +1750,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0421") (unit 1)
+          (reference "#PWR0424") (unit 1)
         )
       )
     )
@@ -1843,7 +1843,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0425") (unit 1)
+          (reference "#PWR0428") (unit 1)
         )
       )
     )
@@ -1922,7 +1922,7 @@
   (symbol (lib_id "power:+2V5") (at 50.8 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 32ed2c71-e1a1-44a0-a725-0c06ec46a43d)
-    (property "Reference" "#PWR0414" (at 50.8 78.74 0)
+    (property "Reference" "#PWR0417" (at 50.8 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 50.8 87.63 0)
@@ -1938,7 +1938,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0414") (unit 1)
+          (reference "#PWR0417") (unit 1)
         )
       )
     )
@@ -2134,7 +2134,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0426") (unit 1)
+          (reference "#PWR0429") (unit 1)
         )
       )
     )
@@ -2294,7 +2294,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0433") (unit 1)
+          (reference "#PWR0436") (unit 1)
         )
       )
     )
@@ -2458,7 +2458,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0432") (unit 1)
+          (reference "#PWR0435") (unit 1)
         )
       )
     )
@@ -2869,7 +2869,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0424") (unit 1)
+          (reference "#PWR0427") (unit 1)
         )
       )
     )
@@ -2989,7 +2989,7 @@
   (symbol (lib_id "power:+2V5") (at 172.72 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a811c9b-0bc5-4478-ad94-974563a944a8)
-    (property "Reference" "#PWR0430" (at 172.72 78.74 0)
+    (property "Reference" "#PWR0433" (at 172.72 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 172.72 87.63 0)
@@ -3005,7 +3005,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0430") (unit 1)
+          (reference "#PWR0433") (unit 1)
         )
       )
     )
@@ -3130,7 +3130,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0427") (unit 1)
+          (reference "#PWR0430") (unit 1)
         )
       )
     )
@@ -3329,7 +3329,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0416") (unit 1)
+          (reference "#PWR0419") (unit 1)
         )
       )
     )
@@ -3387,7 +3387,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0423") (unit 1)
+          (reference "#PWR0426") (unit 1)
         )
       )
     )
@@ -3529,7 +3529,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0418") (unit 1)
+          (reference "#PWR0421") (unit 1)
         )
       )
     )
@@ -3538,7 +3538,7 @@
   (symbol (lib_id "power:+2V5") (at 203.2 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6a8596a-6e35-43c7-be2c-6e770b447839)
-    (property "Reference" "#PWR0435" (at 203.2 44.45 0)
+    (property "Reference" "#PWR0438" (at 203.2 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 203.2 53.34 0)
@@ -3554,7 +3554,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0435") (unit 1)
+          (reference "#PWR0438") (unit 1)
         )
       )
     )
@@ -3563,7 +3563,7 @@
   (symbol (lib_id "power:+2V5") (at 81.28 85.09 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8f25704-210a-4086-99ef-37cc58df4d25)
-    (property "Reference" "#PWR0422" (at 81.28 81.28 0)
+    (property "Reference" "#PWR0425" (at 81.28 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 81.28 90.17 0)
@@ -3579,7 +3579,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0422") (unit 1)
+          (reference "#PWR0425") (unit 1)
         )
       )
     )
@@ -3669,7 +3669,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0417") (unit 1)
+          (reference "#PWR0420") (unit 1)
         )
       )
     )
@@ -3727,7 +3727,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0419") (unit 1)
+          (reference "#PWR0422") (unit 1)
         )
       )
     )
@@ -3817,7 +3817,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0437") (unit 1)
+          (reference "#PWR0440") (unit 1)
         )
       )
     )
@@ -3826,7 +3826,7 @@
   (symbol (lib_id "power:+2V5") (at 172.72 45.72 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e950ae90-375e-48d5-99d4-442a7c67e494)
-    (property "Reference" "#PWR0429" (at 172.72 41.91 0)
+    (property "Reference" "#PWR0432" (at 172.72 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 172.72 50.8 0)
@@ -3842,7 +3842,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0429") (unit 1)
+          (reference "#PWR0432") (unit 1)
         )
       )
     )
@@ -3873,7 +3873,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0438") (unit 1)
+          (reference "#PWR0441") (unit 1)
         )
       )
     )
@@ -3948,7 +3948,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0428") (unit 1)
+          (reference "#PWR0431") (unit 1)
         )
       )
     )
@@ -4050,7 +4050,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0415") (unit 1)
+          (reference "#PWR0418") (unit 1)
         )
       )
     )
@@ -4081,7 +4081,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6562ea38-5963-42b2-a0ef-a4a12a4c652f/ad3a0592-e2c6-4827-8dd3-54afc0bdac28"
-          (reference "#PWR0434") (unit 1)
+          (reference "#PWR0437") (unit 1)
         )
       )
     )
