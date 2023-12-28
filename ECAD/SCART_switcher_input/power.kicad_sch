@@ -199,89 +199,6 @@
         )
       )
     )
-    (symbol "Device:LED" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "LED" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "LED diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Light emitting diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "LED_0_1"
-        (polyline
-          (pts
-            (xy -1.27 -1.27)
-            (xy -1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.27 0)
-            (xy 1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 -1.27)
-            (xy 1.27 1.27)
-            (xy -1.27 0)
-            (xy 1.27 -1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -3.048 -0.762)
-            (xy -4.572 -2.286)
-            (xy -3.81 -2.286)
-            (xy -4.572 -2.286)
-            (xy -4.572 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.778 -0.762)
-            (xy -3.302 -2.286)
-            (xy -2.54 -2.286)
-            (xy -3.302 -2.286)
-            (xy -3.302 -1.524)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "LED_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -876,6 +793,10 @@
     (stroke (width 0) (type default))
     (uuid 21c6be87-0f10-4743-b3b4-dfa65b3fc845)
   )
+  (wire (pts (xy 177.8 40.64) (xy 168.91 40.64))
+    (stroke (width 0) (type default))
+    (uuid 25b4658c-93ca-42d3-8c6d-837ecdb37160)
+  )
   (wire (pts (xy 54.61 143.51) (xy 54.61 144.78))
     (stroke (width 0) (type default))
     (uuid 27318098-a306-448f-8b60-c102123c9b53)
@@ -935,6 +856,10 @@
   (wire (pts (xy 133.35 143.51) (xy 133.35 135.89))
     (stroke (width 0) (type default))
     (uuid 58a416d0-de5a-4808-aafa-89db68d8d298)
+  )
+  (wire (pts (xy 177.8 41.91) (xy 177.8 40.64))
+    (stroke (width 0) (type default))
+    (uuid 69abb90d-0a89-433f-8d7b-d0fb4701757b)
   )
   (wire (pts (xy 168.91 78.74) (xy 168.91 88.9))
     (stroke (width 0) (type default))
@@ -1157,10 +1082,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 861bf6b3-1c98-46cf-9507-2553328a6b14)
   )
-  (text "0.3W min" (at 257.81 34.29 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid b414d736-6e68-4b5a-a9df-170541c204b3)
-  )
   (text "5V power supply" (at 62.23 78.74 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid ba1c64ef-b4e7-41e5-a337-78a11e31544f)
@@ -1168,10 +1089,6 @@
   (text "2.5V split supply analog reference" (at 129.54 68.58 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c29bc552-94e2-462a-93e2-64860cd26ae7)
-  )
-  (text "Power\nindicator" (at 246.38 20.32 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid c9ab1f41-c55d-483c-bbe3-ce903423e36b)
   )
   (text "4.5V split supply analog reference" (at 129.54 123.19 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1181,7 +1098,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 147.32 153.67 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0c8d10db-d65e-4385-9b40-4369ffbf9cbf)
-    (property "Reference" "U16" (at 147.32 163.83 0)
+    (property "Reference" "U4" (at 147.32 163.83 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RC4580" (at 147.32 161.29 0)
@@ -1210,7 +1127,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U16") (unit 2)
+          (reference "U4") (unit 2)
         )
       )
     )
@@ -1219,7 +1136,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 181.61 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10af97e8-8cea-4cca-8491-b3bbfa56f0f3)
-    (property "Reference" "#FLG02" (at 181.61 86.995 0)
+    (property "Reference" "#FLG03" (at 181.61 86.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 181.61 83.82 0)
@@ -1235,41 +1152,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#FLG02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 250.19 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 12aa2a82-a337-4af8-8a7d-eb3c254bda6e)
-    (property "Reference" "#PWR?" (at 250.19 50.8 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 250.19 49.53 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 250.19 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 250.19 44.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 1146fb7b-1d4f-4635-8544-80e96bc2abed))
-    (instances
-      (project "SCART_switcher_input"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0122") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -1278,7 +1161,7 @@
   (symbol (lib_id "power:+12V") (at 50.8 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19d279f3-0e52-4164-a2d7-05a5bbadeb6c)
-    (property "Reference" "#PWR089" (at 50.8 91.44 0)
+    (property "Reference" "#PWR071" (at 50.8 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 50.8 82.804 0)
@@ -1294,32 +1177,32 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:PWR_FLAG") (at 185.42 40.64 0) (unit 1)
+  (symbol (lib_id "power:PWR_FLAG") (at 168.91 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fe9d403-0944-49bb-aebd-5057f35e953a)
-    (property "Reference" "#FLG04" (at 185.42 38.735 0)
+    (property "Reference" "#FLG02" (at 168.91 38.735 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "PWR_FLAG" (at 185.42 35.56 0)
+    (property "Value" "PWR_FLAG" (at 168.91 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 185.42 40.64 0)
+    (property "Footprint" "" (at 168.91 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 185.42 40.64 0)
+    (property "Datasheet" "~" (at 168.91 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 49b8e997-a0b5-409c-8957-5958475ae661))
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -1334,13 +1217,13 @@
     (property "Value" "100nC" (at 91.186 149.86 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 88.5952 152.4 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 88.5952 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191215_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf" (at 87.63 148.59 0)
+    (property "Datasheet" "" (at 87.63 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CL21B104KBCNNNC" (at 87.63 148.59 0)
+    (property "MPN" "" (at 87.63 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Status" "" (at 87.63 148.59 0)
@@ -1360,7 +1243,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C10") (unit 1)
+          (reference "C4") (unit 1)
         )
       )
     )
@@ -1394,7 +1277,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR097") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -1403,7 +1286,7 @@
   (symbol (lib_id "power:+12V") (at 50.8 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 285c34eb-c14f-4bf3-aa79-4c5562834f00)
-    (property "Reference" "#PWR090" (at 50.8 146.05 0)
+    (property "Reference" "#PWR072" (at 50.8 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 50.8 137.414 0)
@@ -1419,7 +1302,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -1428,7 +1311,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 147.32 78.74 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2a5c6276-18ad-4753-959c-2876e03cbb7b)
-    (property "Reference" "U15" (at 147.32 88.9 0)
+    (property "Reference" "U3" (at 147.32 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RC4580" (at 147.32 86.36 0)
@@ -1457,7 +1340,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U15") (unit 1)
+          (reference "U3") (unit 1)
         )
       )
     )
@@ -1491,7 +1374,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0114") (unit 1)
+          (reference "#PWR096") (unit 1)
         )
       )
     )
@@ -1525,7 +1408,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0104") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -1575,7 +1458,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R19") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -1609,7 +1492,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -1643,7 +1526,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -1677,7 +1560,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -1724,7 +1607,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R23") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -1733,7 +1616,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 181.61 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 419fc44b-79e7-4c61-850b-34fecd3e9f29)
-    (property "Reference" "#FLG03" (at 181.61 141.605 0)
+    (property "Reference" "#FLG04" (at 181.61 141.605 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 181.61 138.43 0)
@@ -1749,32 +1632,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#FLG03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+12V") (at 250.19 29.21 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 444a1985-bc50-42fe-a972-839cc55f26f3)
-    (property "Reference" "#PWR0121" (at 250.19 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+12V" (at 250.19 24.384 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 250.19 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 250.19 29.21 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 59a2db6b-dc6f-4679-ac16-52ce768371b9))
-    (instances
-      (project "SCART_switcher_input"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0121") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -1789,13 +1647,13 @@
     (property "Value" "100nC" (at 91.186 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 88.5952 97.79 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 88.5952 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191215_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf" (at 87.63 93.98 0)
+    (property "Datasheet" "" (at 87.63 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CL21B104KBCNNNC" (at 87.63 93.98 0)
+    (property "MPN" "" (at 87.63 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Status" "" (at 87.63 93.98 0)
@@ -1815,7 +1673,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C9") (unit 1)
+          (reference "C3") (unit 1)
         )
       )
     )
@@ -1849,7 +1707,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0109") (unit 1)
+          (reference "#PWR091") (unit 1)
         )
       )
     )
@@ -1883,7 +1741,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -1892,7 +1750,7 @@
   (symbol (lib_id "power:+9V") (at 109.22 134.62 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b18c1e9-40fd-4b3f-ad41-2bad1a2ecec7)
-    (property "Reference" "#PWR0101" (at 109.22 138.43 0)
+    (property "Reference" "#PWR083" (at 109.22 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 109.22 129.54 0)
@@ -1908,7 +1766,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -1958,7 +1816,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R16") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -1992,7 +1850,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0117") (unit 1)
+          (reference "#PWR099") (unit 1)
         )
       )
     )
@@ -2001,7 +1859,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 213.36 88.9 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ca994fd-7ac2-4699-94d2-7eb61569d556)
-    (property "Reference" "U15" (at 212.09 87.63 0)
+    (property "Reference" "U3" (at 212.09 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RC4580" (at 212.09 90.17 0)
@@ -2030,7 +1888,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U15") (unit 3)
+          (reference "U3") (unit 3)
         )
       )
     )
@@ -2067,7 +1925,7 @@
       )
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C7") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
     )
@@ -2082,13 +1940,13 @@
     (property "Value" "100nC" (at 228.346 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 225.7552 147.32 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 225.7552 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191215_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf" (at 224.79 143.51 0)
+    (property "Datasheet" "" (at 224.79 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CL21B104KBCNNNC" (at 224.79 143.51 0)
+    (property "MPN" "" (at 224.79 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Status" "" (at 224.79 143.51 0)
@@ -2108,7 +1966,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C18") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -2117,7 +1975,7 @@
   (symbol (lib_id "power_custom:+4V5") (at 196.85 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 615ac0ce-5b8c-415c-86db-9b74eaf68aa5)
-    (property "Reference" "#PWR0112" (at 196.85 146.05 0)
+    (property "Reference" "#PWR094" (at 196.85 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+4V5" (at 196.85 137.16 0)
@@ -2133,7 +1991,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0112") (unit 1)
+          (reference "#PWR094") (unit 1)
         )
       )
     )
@@ -2142,7 +2000,7 @@
   (symbol (lib_id "power:+9V") (at 91.44 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 639b6292-4041-40a9-abf6-23574461f190)
-    (property "Reference" "#PWR098" (at 91.44 146.05 0)
+    (property "Reference" "#PWR080" (at 91.44 146.05 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 91.44 137.16 0)
@@ -2158,7 +2016,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR098") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -2192,7 +2050,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -2226,7 +2084,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0113") (unit 1)
+          (reference "#PWR095") (unit 1)
         )
       )
     )
@@ -2260,7 +2118,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0110") (unit 1)
+          (reference "#PWR092") (unit 1)
         )
       )
     )
@@ -2294,7 +2152,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR099") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -2328,7 +2186,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR094") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -2337,7 +2195,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 147.32 133.35 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7ad5114f-67e2-42a1-8c3d-ecf2297fdc77)
-    (property "Reference" "U16" (at 147.32 143.51 0)
+    (property "Reference" "U4" (at 147.32 143.51 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RC4580" (at 147.32 140.97 0)
@@ -2366,7 +2224,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U16") (unit 1)
+          (reference "U4") (unit 1)
         )
       )
     )
@@ -2438,7 +2296,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R22") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -2472,7 +2330,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0106") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -2481,7 +2339,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 187.96 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91c87909-1169-4893-ab2f-341f3c4d3411)
-    (property "Reference" "C16" (at 191.77 147.701 0)
+    (property "Reference" "C10" (at 191.77 147.701 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uC" (at 191.77 150.241 0)
@@ -2504,7 +2362,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C16") (unit 1)
+          (reference "C10") (unit 1)
         )
       )
     )
@@ -2538,7 +2396,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0105") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -2547,7 +2405,7 @@
   (symbol (lib_id "power:+9V") (at 210.82 135.89 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96e4d64c-b32b-462b-af5b-39d3f3805a5d)
-    (property "Reference" "#PWR0115" (at 210.82 139.7 0)
+    (property "Reference" "#PWR097" (at 210.82 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 210.82 130.81 0)
@@ -2563,7 +2421,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0115") (unit 1)
+          (reference "#PWR097") (unit 1)
         )
       )
     )
@@ -2613,62 +2471,25 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R17") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:R") (at 250.19 33.02 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid a1843b1a-253c-46ad-8389-2d55b59ade0b)
-    (property "Reference" "R?" (at 252.73 31.7499 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "1kR" (at 252.73 34.2899 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Resistor_SMD:R_1210_3225Metric" (at 248.412 33.02 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 250.19 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "" (at 250.19 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "" (at 250.19 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid cae1fbef-b2ee-401b-81c8-094a3e737218))
-    (pin "2" (uuid d0cb0042-2004-4c43-8a34-e43265fa0617))
-    (instances
-      (project "PowerDeliveryBoard"
-        (path "/1b23c6f1-7fb3-40ef-b765-f3b58b1e810f"
-          (reference "R?") (unit 1)
-        )
-      )
-      (project "SCART_switcher_input"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R24") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 185.42 40.64 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 177.8 41.91 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a81010d9-2b8c-498e-9484-c1b6e1997788)
-    (property "Reference" "#PWR?" (at 185.42 46.99 0)
+    (property "Reference" "#PWR?" (at 177.8 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 185.42 45.72 0)
+    (property "Value" "GND" (at 177.8 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 185.42 40.64 0)
+    (property "Footprint" "" (at 177.8 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 185.42 40.64 0)
+    (property "Datasheet" "" (at 177.8 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 08990394-5f60-4613-9286-2ffce96845d7))
@@ -2684,7 +2505,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0108") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -2699,13 +2520,13 @@
     (property "Value" "100nC" (at 177.546 151.13 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 174.9552 153.67 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 174.9552 153.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191215_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf" (at 173.99 149.86 0)
+    (property "Datasheet" "" (at 173.99 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CL21B104KBCNNNC" (at 173.99 149.86 0)
+    (property "MPN" "" (at 173.99 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Status" "" (at 173.99 149.86 0)
@@ -2725,7 +2546,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C14") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -2734,7 +2555,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 147.32 99.06 0) (mirror x) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid adbf8f6a-bfc2-48a9-b1fd-cd3097209dc4)
-    (property "Reference" "U15" (at 147.32 109.22 0)
+    (property "Reference" "U3" (at 147.32 109.22 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "RC4580" (at 147.32 106.68 0)
@@ -2763,7 +2584,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U15") (unit 2)
+          (reference "U3") (unit 2)
         )
       )
     )
@@ -2797,7 +2618,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0120") (unit 1)
+          (reference "#PWR0102") (unit 1)
         )
       )
     )
@@ -2806,7 +2627,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 187.96 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7b14212-3f56-4a3e-8b78-d5ec32d9c3e4)
-    (property "Reference" "C15" (at 191.77 93.091 0)
+    (property "Reference" "C9" (at 191.77 93.091 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uC" (at 191.77 95.631 0)
@@ -2829,7 +2650,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C15") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -2876,7 +2697,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R20") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -2910,7 +2731,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0100") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -2957,7 +2778,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R21") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -2994,7 +2815,7 @@
       )
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C11") (unit 1)
+          (reference "C5") (unit 1)
         )
       )
     )
@@ -3003,7 +2824,7 @@
   (symbol (lib_id "Regulator_Linear:L7805") (at 71.12 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bea49210-4ba4-4a04-8eef-ac4a85eba05f)
-    (property "Reference" "U13" (at 71.12 82.55 0)
+    (property "Reference" "U1" (at 71.12 82.55 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L7805" (at 71.12 85.09 0)
@@ -3024,7 +2845,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U13") (unit 1)
+          (reference "U1") (unit 1)
         )
       )
     )
@@ -3061,7 +2882,7 @@
       )
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C12") (unit 1)
+          (reference "C6") (unit 1)
         )
       )
     )
@@ -3111,7 +2932,7 @@
           (reference "R?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "R18") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -3145,7 +2966,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR098") (unit 1)
         )
       )
     )
@@ -3179,7 +3000,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -3188,7 +3009,7 @@
   (symbol (lib_id "power:+12V") (at 177.8 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbbb5b6f-2718-4684-9a18-d81cbb152199)
-    (property "Reference" "#PWR0107" (at 177.8 34.29 0)
+    (property "Reference" "#PWR089" (at 177.8 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 177.8 25.654 0)
@@ -3204,7 +3025,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0107") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -3219,13 +3040,13 @@
     (property "Value" "100nC" (at 228.346 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 225.7552 92.71 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 225.7552 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191215_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf" (at 224.79 88.9 0)
+    (property "Datasheet" "" (at 224.79 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CL21B104KBCNNNC" (at 224.79 88.9 0)
+    (property "MPN" "" (at 224.79 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Status" "" (at 224.79 88.9 0)
@@ -3245,44 +3066,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C17") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:LED") (at 250.19 40.64 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ce533746-3b77-404d-bb7b-f8d986409be2)
-    (property "Reference" "D?" (at 254 40.9574 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "LED" (at 254 43.4974 90)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "LED_THT:LED_D5.0mm" (at 250.19 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810271709_Everlight-Elec-333-2SURD-S530-A3_C87271.pdf" (at 250.19 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "MPN" "333-2SURD/S530-A3" (at 250.19 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Status" "OK" (at 250.19 40.64 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 4f163098-c3ea-43f6-8d41-3156ecacce47))
-    (pin "2" (uuid b4bfa652-e1b7-4843-a04c-128f70fe2280))
-    (instances
-      (project "PowerDeliveryBoard"
-        (path "/1b23c6f1-7fb3-40ef-b765-f3b58b1e810f"
-          (reference "D?") (unit 1)
-        )
-      )
-      (project "SCART_switcher_input"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "D7") (unit 1)
+          (reference "C11") (unit 1)
         )
       )
     )
@@ -3316,7 +3100,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0118") (unit 1)
+          (reference "#PWR0100") (unit 1)
         )
       )
     )
@@ -3353,7 +3137,7 @@
       )
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C8") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -3362,7 +3146,7 @@
   (symbol (lib_id "power:+9V") (at 224.79 139.7 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5d7a9a9-749f-4005-9a05-867813a7b1f0)
-    (property "Reference" "#PWR0119" (at 224.79 143.51 0)
+    (property "Reference" "#PWR0101" (at 224.79 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 224.79 134.62 0)
@@ -3378,7 +3162,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0119") (unit 1)
+          (reference "#PWR0101") (unit 1)
         )
       )
     )
@@ -3387,7 +3171,7 @@
   (symbol (lib_id "Amplifier_Operational:NE5532") (at 213.36 143.51 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f025a53f-edf0-4aa9-9290-0d0485826947)
-    (property "Reference" "U16" (at 212.09 142.24 0)
+    (property "Reference" "U4" (at 212.09 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RC4580" (at 212.09 144.78 0)
@@ -3416,7 +3200,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U16") (unit 3)
+          (reference "U4") (unit 3)
         )
       )
     )
@@ -3450,7 +3234,7 @@
           (reference "#PWR?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR096") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -3465,13 +3249,13 @@
     (property "Value" "100nC" (at 177.546 96.52 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 174.9552 99.06 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 174.9552 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://datasheet.lcsc.com/lcsc/1810191215_Samsung-Electro-Mechanics-CL21B104KBCNNNC_C1711.pdf" (at 173.99 95.25 0)
+    (property "Datasheet" "" (at 173.99 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MPN" "CL21B104KBCNNNC" (at 173.99 95.25 0)
+    (property "MPN" "" (at 173.99 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Status" "" (at 173.99 95.25 0)
@@ -3491,7 +3275,7 @@
           (reference "C?") (unit 1)
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "C13") (unit 1)
+          (reference "C7") (unit 1)
         )
       )
     )
@@ -3500,7 +3284,7 @@
   (symbol (lib_id "power:+2V5") (at 196.85 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc487660-4112-466a-8280-7a822abc8958)
-    (property "Reference" "#PWR0111" (at 196.85 91.44 0)
+    (property "Reference" "#PWR093" (at 196.85 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 196.85 82.55 0)
@@ -3516,7 +3300,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0111") (unit 1)
+          (reference "#PWR093") (unit 1)
         )
       )
     )
@@ -3525,7 +3309,7 @@
   (symbol (lib_id "Regulator_Linear:L7809") (at 71.12 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fda8609f-400a-4b1d-ac39-2849a5cebc84)
-    (property "Reference" "U14" (at 71.12 137.16 0)
+    (property "Reference" "U2" (at 71.12 137.16 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "L7809" (at 71.12 139.7 0)
@@ -3546,7 +3330,7 @@
     (instances
       (project "SCART_switcher_input"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "U14") (unit 1)
+          (reference "U2") (unit 1)
         )
       )
     )
