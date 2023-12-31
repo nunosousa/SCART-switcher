@@ -1322,9 +1322,6 @@
         )
       )
       (project "SCART_switcher_input"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "D?") (unit 1)
-        )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
           (reference "D2") (unit 1)
         )
@@ -1434,7 +1431,7 @@
   (symbol (lib_id "Connector:SCART-F") (at 90.17 71.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c402c79-eef5-4302-befa-649c7c1c41a2)
-    (property "Reference" "J?" (at 90.17 33.02 0)
+    (property "Reference" "J16" (at 90.17 33.02 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SCART-F" (at 90.17 35.56 0)
@@ -1475,9 +1472,6 @@
     (pin "9" (uuid d5190b1f-35aa-4e8d-b91f-d72779c862f6))
     (instances
       (project "SCART_switcher_input"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180"
-          (reference "J?") (unit 1)
-        )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
           (reference "J16") (unit 1)
         )
@@ -1630,7 +1624,7 @@
   (symbol (lib_id "power:+12V") (at 229.87 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c991ea8d-cd3e-4ef8-bf85-df4493a7603f)
-    (property "Reference" "#PWR?" (at 229.87 124.46 0)
+    (property "Reference" "#PWR025" (at 229.87 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 229.87 115.824 0)
@@ -1645,9 +1639,6 @@
     (pin "1" (uuid 41f4012e-4fe8-4d69-a853-e796f44b4b5b))
     (instances
       (project "SCART_switcher_input"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
           (reference "#PWR025") (unit 1)
         )
@@ -1687,15 +1678,6 @@
         )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
           (reference "#PWR051") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7/0117abb0-e8aa-4002-a68c-61b92aed6fa0"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc/0117abb0-e8aa-4002-a68c-61b92aed6fa0"
-          (reference "#PWR?") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9/0117abb0-e8aa-4002-a68c-61b92aed6fa0"
-          (reference "#PWR?") (unit 1)
         )
       )
     )
@@ -1802,15 +1784,6 @@
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
           (reference "R12") (unit 1)
         )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7/8a52048d-21a1-4895-a4b6-c190738f75a0"
-          (reference "R?") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc/8a52048d-21a1-4895-a4b6-c190738f75a0"
-          (reference "R?") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9/8a52048d-21a1-4895-a4b6-c190738f75a0"
-          (reference "R?") (unit 1)
-        )
       )
     )
   )
@@ -1818,7 +1791,7 @@
   (symbol (lib_id "Device:R") (at 215.9 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa1cabf0-bd86-4259-bfac-5190acaa4267)
-    (property "Reference" "R?" (at 218.44 35.56 0)
+    (property "Reference" "R1" (at 218.44 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kR" (at 218.44 38.1 0)
@@ -1840,15 +1813,6 @@
     (pin "2" (uuid 66800ab6-9892-4506-b619-5dfe0802e3fd))
     (instances
       (project "SCART_switcher_input"
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7/8a52048d-21a1-4895-a4b6-c190738f75a0"
-          (reference "R?") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc/8a52048d-21a1-4895-a4b6-c190738f75a0"
-          (reference "R?") (unit 1)
-        )
-        (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9/8a52048d-21a1-4895-a4b6-c190738f75a0"
-          (reference "R?") (unit 1)
-        )
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
           (reference "R1") (unit 1)
         )
