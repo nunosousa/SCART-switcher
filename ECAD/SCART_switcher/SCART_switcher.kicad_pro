@@ -481,10 +481,6 @@
       "SCART output"
     ],
     [
-      "767093fd-244d-47aa-bb03-1a1276be8d22",
-      "Priority Encoder"
-    ],
-    [
       "8ea6db35-25d0-43bc-9de5-3ca23502dcdc",
       "SCART input 2"
     ],
@@ -525,46 +521,6 @@
       "Power"
     ],
     [
-      "ac954273-0b1e-4cc7-8105-6d879a829625",
-      "Priority Level 1"
-    ],
-    [
-      "5f105f62-0bcf-4e33-8575-8869c34cc8e2",
-      "Priority Level 2"
-    ],
-    [
-      "da40f57b-d050-42f1-943d-6d1136fd05ba",
-      "Priority Level 3"
-    ],
-    [
-      "e2d3658f-f34b-4721-97b8-b7eba164d844",
-      "Priority Level 4"
-    ],
-    [
-      "e45efac5-0802-4def-838c-58a6ca166447",
-      "Priority Level 5"
-    ],
-    [
-      "27be51fb-0e8c-4956-bc2c-e48a6bb28ed2",
-      "Priority Level 6"
-    ],
-    [
-      "dc6d56fb-bdb0-4ecc-8a1a-ed62804f7dbb",
-      "Priority Level 7"
-    ],
-    [
-      "2f887179-bd41-4907-8b53-ba707c47e3b0",
-      "Priority Level 8"
-    ],
-    [
-      "f3189d6a-8c8d-437b-9f5d-14c8f4314717",
-      "Priority Level 0"
-    ],
-    [
-      "f91cc025-d915-4749-901f-f786648ef256",
-      "Priority Level 9"
-    ],
-    [
       "9f74dfb2-70cd-470e-9dfb-02936b5bb451",
       "Audio output stage"
     ],
@@ -577,8 +533,48 @@
       "Silent output"
     ],
     [
+      "af75ca20-51fa-4f67-81bd-756526892e97",
+      "Priority Level"
+    ],
+    [
+      "af75ca20-51fa-4f67-81bd-756526892e97",
+      "Priority Level"
+    ],
+    [
+      "af75ca20-51fa-4f67-81bd-756526892e97",
+      "Priority Level"
+    ],
+    [
+      "af75ca20-51fa-4f67-81bd-756526892e97",
+      "Priority Level"
+    ],
+    [
+      "af75ca20-51fa-4f67-81bd-756526892e97",
+      "Priority Level"
+    ],
+    [
+      "af75ca20-51fa-4f67-81bd-756526892e97",
+      "Priority Level"
+    ],
+    [
+      "af75ca20-51fa-4f67-81bd-756526892e97",
+      "Priority Level"
+    ],
+    [
+      "af75ca20-51fa-4f67-81bd-756526892e97",
+      "Priority Level"
+    ],
+    [
       "0117abb0-e8aa-4002-a68c-61b92aed6fa0",
       "Video input stage"
+    ],
+    [
+      "af75ca20-51fa-4f67-81bd-756526892e97",
+      "Priority Level"
+    ],
+    [
+      "af75ca20-51fa-4f67-81bd-756526892e97",
+      "Priority Level"
     ],
     [
       "ad3a0592-e2c6-4827-8dd3-54afc0bdac28",
