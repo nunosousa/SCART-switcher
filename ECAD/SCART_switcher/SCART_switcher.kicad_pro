@@ -481,6 +481,10 @@
       "SCART output"
     ],
     [
+      "f319e492-48ba-46b6-88da-05337a98ce1a",
+      "Silent input"
+    ],
+    [
       "8ea6db35-25d0-43bc-9de5-3ca23502dcdc",
       "SCART input 2"
     ],
@@ -527,10 +531,6 @@
     [
       "8a52048d-21a1-4895-a4b6-c190738f75a0",
       "Audio input stage"
-    ],
-    [
-      "32c156af-ff54-4356-ac90-a2b1f82b1e02",
-      "Silent output"
     ],
     [
       "af75ca20-51fa-4f67-81bd-756526892e97",
