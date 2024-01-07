@@ -2384,10 +2384,10 @@
     (property "Status" "OK" (at 58.42 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 037f0bd3-3233-4883-9cf3-1bc8d6dda320))
+    (pin "2" (uuid 037f0bd3-3233-4883-9cf3-1bc8d6dda323))
     (pin "3" (uuid 2eba883b-cf4e-4128-a595-a24fd6c20646))
     (pin "6" (uuid d359c885-59e0-4e5e-a6c3-bea0991fc112))
-    (pin "5" (uuid 94f80d41-0d7c-4f08-8a83-9a6e9456a4c0))
+    (pin "5" (uuid 94f80d41-0d7c-4f08-8a83-9a6e9456a4c3))
     (pin "4" (uuid 53ed01dc-0e86-4c70-bb5d-065373c291d6))
     (pin "1" (uuid 53385600-fe6a-4ad2-b210-39e04746a680))
     (instances
@@ -2525,11 +2525,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 4b7117e5-bc92-44c4-8bc8-ca29c9d5856d))
-    (pin "3" (uuid 6f2d09cb-3416-40a9-a238-67927d76112a))
-    (pin "6" (uuid 92b5ab84-59e7-4668-bb67-09cc981ad344))
+    (pin "3" (uuid 6f2d09cb-3416-40a9-a238-67927d76112b))
+    (pin "6" (uuid 92b5ab84-59e7-4668-bb67-09cc981ad345))
     (pin "5" (uuid deeb2c50-03c1-4cc4-9352-efa599501282))
-    (pin "4" (uuid 1af2da6e-8625-4bb3-a552-bd515e6359ca))
-    (pin "1" (uuid d699e447-3045-4193-92b0-90c4e35edb1f))
+    (pin "4" (uuid 1af2da6e-8625-4bb3-a552-bd515e6359cb))
+    (pin "1" (uuid d699e447-3045-4193-92b0-90c4e35edb20))
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/f319e492-48ba-46b6-88da-05337a98ce1a"
@@ -2932,10 +2932,10 @@
     (property "Status" "OK" (at 58.42 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 037f0bd3-3233-4883-9cf3-1bc8d6dda323))
+    (pin "2" (uuid 037f0bd3-3233-4883-9cf3-1bc8d6dda324))
     (pin "3" (uuid ca54c905-a78a-4e36-b064-adbf5d45e931))
     (pin "6" (uuid e9c93285-824d-4fbd-936d-380e6ac35fee))
-    (pin "5" (uuid 94f80d41-0d7c-4f08-8a83-9a6e9456a4c3))
+    (pin "5" (uuid 94f80d41-0d7c-4f08-8a83-9a6e9456a4c4))
     (pin "4" (uuid 55c7d0da-02f5-4449-91b4-4cbdfd5b7263))
     (pin "1" (uuid 495ec949-8d00-47d7-b4d4-b19dcfb02f47))
     (instances
@@ -3340,11 +3340,11 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 7ac2d5bc-3aad-46eb-b958-842372677b4c))
-    (pin "3" (uuid 6f2d09cb-3416-40a9-a238-67927d76112b))
-    (pin "6" (uuid 92b5ab84-59e7-4668-bb67-09cc981ad345))
+    (pin "3" (uuid 6f2d09cb-3416-40a9-a238-67927d76112c))
+    (pin "6" (uuid 92b5ab84-59e7-4668-bb67-09cc981ad346))
     (pin "5" (uuid cf293eb6-661c-4774-8e4e-0fedcf329e4c))
-    (pin "4" (uuid 1af2da6e-8625-4bb3-a552-bd515e6359cb))
-    (pin "1" (uuid d699e447-3045-4193-92b0-90c4e35edb20))
+    (pin "4" (uuid 1af2da6e-8625-4bb3-a552-bd515e6359cc))
+    (pin "1" (uuid d699e447-3045-4193-92b0-90c4e35edb21))
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/f319e492-48ba-46b6-88da-05337a98ce1a"
