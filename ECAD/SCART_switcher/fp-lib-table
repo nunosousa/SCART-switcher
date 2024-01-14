@@ -2,5 +2,4 @@
   (version 7)
   (lib (name "Connector_SCART")(type "KiCad")(uri "${KIPRJMOD}/Connector_SCART.pretty")(options "")(descr ""))
   (lib (name "Connector_RCA")(type "KiCad")(uri "${KIPRJMOD}/Connector_RCA.pretty")(options "")(descr ""))
-  (lib (name "Button_Switch_THT_custom")(type "KiCad")(uri "${KIPRJMOD}/Button_Switch_THT_custom.pretty")(options "")(descr ""))
 )

@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Button_Switch_THT_custom")(type "KiCad")(uri "${KIPRJMOD}/Button_Switch_THT_custom.pretty")(options "")(descr ""))
+)

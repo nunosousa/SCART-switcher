@@ -377,7 +377,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -392,7 +392,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SCART_switcher_input.kicad_pro",
+    "filename": "Power_supply.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -458,7 +458,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "./",
+    "plot_directory": "",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -469,60 +469,8 @@
   },
   "sheets": [
     [
-      "8cd08eb5-4755-4ef5-8eeb-77fd9974b180",
+      "edc8412f-0483-47e1-aeb9-21064b18cc9b",
       ""
-    ],
-    [
-      "6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7",
-      "SCART input 1"
-    ],
-    [
-      "8ea6db35-25d0-43bc-9de5-3ca23502dcdc",
-      "SCART input 2"
-    ],
-    [
-      "272a4677-3ef2-418e-abc5-b29f59e726f9",
-      "SCART input 3"
-    ],
-    [
-      "97322f69-e157-4485-ba6f-abf37143a1ac",
-      "Priority Level"
-    ],
-    [
-      "97322f69-e157-4485-ba6f-abf37143a1ac",
-      "Priority Level"
-    ],
-    [
-      "97322f69-e157-4485-ba6f-abf37143a1ac",
-      "Priority Level"
-    ],
-    [
-      "19b1c794-1d68-480b-a4cd-c99f5e9ef1e6",
-      "Power"
-    ],
-    [
-      "8a52048d-21a1-4895-a4b6-c190738f75a0",
-      "Audio input stage"
-    ],
-    [
-      "0117abb0-e8aa-4002-a68c-61b92aed6fa0",
-      "Video input stage"
-    ],
-    [
-      "0117abb0-e8aa-4002-a68c-61b92aed6fa0",
-      "Video input stage"
-    ],
-    [
-      "8a52048d-21a1-4895-a4b6-c190738f75a0",
-      "Audio input stage"
-    ],
-    [
-      "0117abb0-e8aa-4002-a68c-61b92aed6fa0",
-      "Video input stage"
-    ],
-    [
-      "8a52048d-21a1-4895-a4b6-c190738f75a0",
-      "Audio input stage"
     ]
   ],
   "text_variables": {}

@@ -1,4 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Connector_SCART")(type "KiCad")(uri "${KIPRJMOD}/Connector_SCART.pretty")(options "")(descr ""))
-)
