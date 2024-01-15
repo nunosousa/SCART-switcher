@@ -807,6 +807,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a2d1b3bb-a046-4537-8e4a-0870f7c02fd0)
   )
+  (text "RC4580 can be replaced with higher quality OPA1656."
+    (at 24.13 52.07 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a5cc1fa6-23c4-4d55-b9b6-41d9c600a38c)
+  )
   (text "(*4)" (at 128.27 36.83 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid be831b47-fa47-4436-b69c-b5a1762cb864)
