@@ -992,6 +992,9 @@
     (property "Status" "OK" (at 195.58 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "LM4041DIDBZT" (at 195.58 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "3" (uuid 7ef44204-d959-46e3-844a-afc183a676c8))
     (pin "2" (uuid c3e08864-1ec6-476e-aa78-766a4f7de22e))
     (pin "1" (uuid eb483897-e11c-47c6-860d-aafcf5a2a6cf))
@@ -1023,6 +1026,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Status" "OK" (at 74.93 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN_MOUSER" "" (at 74.93 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 6af06edc-dcaa-468b-83bf-d7c2277c495f))
@@ -1057,6 +1063,9 @@
     (property "Status" "OK" (at 81.28 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 81.28 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 725445ce-c2df-4c72-bc20-1a3886826162))
     (pin "1" (uuid a00b1b79-50b3-41f2-b367-79eb1ee60a3c))
     (instances
@@ -1071,7 +1080,7 @@
   (symbol (lib_id "power:GND") (at 85.09 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e602ef4-7902-4151-93fd-4c474f4fbdb6)
-    (property "Reference" "#PWR0264" (at 85.09 177.8 0)
+    (property "Reference" "#PWR0314" (at 85.09 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 85.09 176.53 0)
@@ -1087,7 +1096,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0264") (unit 1)
+          (reference "#PWR0314") (unit 1)
         )
       )
     )
@@ -1096,7 +1105,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 101.6 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1fe9d403-0944-49bb-aebd-5057f35e953a)
-    (property "Reference" "#FLG03" (at 101.6 159.385 0)
+    (property "Reference" "#FLG04" (at 101.6 159.385 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 101.6 156.21 0)
@@ -1112,7 +1121,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#FLG03") (unit 1)
+          (reference "#FLG04") (unit 1)
         )
       )
     )
@@ -1121,7 +1130,7 @@
   (symbol (lib_id "power:GND") (at 138.43 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b0e5d1d-9102-4452-807b-50df54081428)
-    (property "Reference" "#PWR0273" (at 138.43 96.52 0)
+    (property "Reference" "#PWR0323" (at 138.43 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 138.43 95.25 0)
@@ -1137,7 +1146,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0273") (unit 1)
+          (reference "#PWR0323") (unit 1)
         )
       )
     )
@@ -1164,6 +1173,9 @@
     (property "Status" "OK" (at 102.87 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 102.87 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f19e64fa-ec3f-4c7b-8ae0-0ec356056f04))
     (pin "2" (uuid 149fc6ec-91bf-44af-b85e-f684552f3cf2))
     (instances
@@ -1178,7 +1190,7 @@
   (symbol (lib_id "power:GND") (at 195.58 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5967a842-ac3c-4260-b617-aad86a2b9356)
-    (property "Reference" "#PWR0276" (at 195.58 106.68 0)
+    (property "Reference" "#PWR0326" (at 195.58 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 105.41 0)
@@ -1194,7 +1206,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0276") (unit 1)
+          (reference "#PWR0326") (unit 1)
         )
       )
     )
@@ -1221,6 +1233,9 @@
     (property "Status" "OK" (at 175.26 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 175.26 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 46c06eb7-f29b-4f7e-9d8d-529bb182569d))
     (pin "1" (uuid 356006ef-a9b1-4994-bf54-6aaabec7b9a6))
     (instances
@@ -1235,7 +1250,7 @@
   (symbol (lib_id "power:+9V") (at 109.22 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 639b6292-4041-40a9-abf6-23574461f190)
-    (property "Reference" "#PWR0268" (at 109.22 163.83 0)
+    (property "Reference" "#PWR0318" (at 109.22 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 109.22 154.94 0)
@@ -1251,7 +1266,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0268") (unit 1)
+          (reference "#PWR0318") (unit 1)
         )
       )
     )
@@ -1260,7 +1275,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 93.98 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 64943b53-6947-4da5-8a51-f7774ccb4b30)
-    (property "Reference" "#FLG05" (at 93.98 81.915 0)
+    (property "Reference" "#FLG02" (at 93.98 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 93.98 78.74 0)
@@ -1276,7 +1291,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#FLG05") (unit 1)
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -1328,6 +1343,9 @@
     (property "Status" "OK" (at 217.17 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 217.17 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 11f63e7f-4ff1-4113-9b6a-b2cd55f43f31))
     (pin "2" (uuid 8d0ad72b-c627-422f-8654-6c39b424d61a))
     (instances
@@ -1360,6 +1378,9 @@
     (property "Status" "OK" (at 195.58 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 195.58 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 7af79a7b-3f03-423e-88da-67fdbb2c3c3c))
     (pin "1" (uuid d5631ba7-58ea-469f-b732-e105175aded2))
     (instances
@@ -1374,7 +1395,7 @@
   (symbol (lib_id "power:GND") (at 251.46 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 68401ca8-2cd9-437b-96b5-a2ea234281f8)
-    (property "Reference" "#PWR0281" (at 251.46 96.52 0)
+    (property "Reference" "#PWR0331" (at 251.46 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 95.25 0)
@@ -1390,7 +1411,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0281") (unit 1)
+          (reference "#PWR0331") (unit 1)
         )
       )
     )
@@ -1417,6 +1438,9 @@
     (property "Status" "OK" (at 231.14 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 231.14 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid d728a9a7-c685-46f4-b93c-b0d11b6f45f3))
     (pin "1" (uuid bab6684c-cd93-4027-aa75-a0d517719125))
     (instances
@@ -1431,7 +1455,7 @@
   (symbol (lib_id "power_custom:+4V5") (at 240.03 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6adc888b-aa4c-4efb-918a-34fe507573ec)
-    (property "Reference" "#PWR0279" (at 240.03 86.36 0)
+    (property "Reference" "#PWR0329" (at 240.03 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+4V5" (at 240.03 77.47 0)
@@ -1447,7 +1471,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0279") (unit 1)
+          (reference "#PWR0329") (unit 1)
         )
       )
     )
@@ -1472,6 +1496,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Status" "OK" (at 195.58 63.5 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN_MOUSER" "" (at 195.58 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid bed5e547-056b-4407-a2f2-6a4fab9444a7))
@@ -1506,6 +1533,9 @@
     (property "Status" "OK" (at 81.28 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "LM4041DIDBZT" (at 81.28 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "3" (uuid 9e816485-ba96-4eb2-b7aa-acd777a7b013))
     (pin "2" (uuid a61fb952-ea27-41ff-9c89-9d5ff47b8274))
     (pin "1" (uuid 1ecfb418-68cb-4494-9a89-78e1ca6ba3c2))
@@ -1521,7 +1551,7 @@
   (symbol (lib_id "power:+9V") (at 195.58 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74e36b30-b788-42a1-8345-4b546dd87b98)
-    (property "Reference" "#PWR0275" (at 195.58 63.5 0)
+    (property "Reference" "#PWR0325" (at 195.58 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 195.58 54.61 0)
@@ -1537,7 +1567,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0275") (unit 1)
+          (reference "#PWR0325") (unit 1)
         )
       )
     )
@@ -1546,7 +1576,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 96.52 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 77b652f6-38c0-417c-9147-77d4e33df6de)
-    (property "Reference" "#FLG02" (at 96.52 172.085 0)
+    (property "Reference" "#FLG03" (at 96.52 172.085 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 96.52 168.91 0)
@@ -1562,7 +1592,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#FLG02") (unit 1)
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -1596,7 +1626,7 @@
   (symbol (lib_id "power:+9V") (at 81.28 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84b7c8d3-270f-4441-9192-1b28bd996fcf)
-    (property "Reference" "#PWR0262" (at 81.28 63.5 0)
+    (property "Reference" "#PWR0312" (at 81.28 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9V" (at 81.28 54.61 0)
@@ -1612,7 +1642,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0262") (unit 1)
+          (reference "#PWR0312") (unit 1)
         )
       )
     )
@@ -1621,7 +1651,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 116.84 166.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85182017-cb87-4a2f-a2b0-3781918d65ed)
-    (property "Reference" "#FLG04" (at 116.84 164.465 0)
+    (property "Reference" "#FLG05" (at 116.84 164.465 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 116.84 161.29 0)
@@ -1637,7 +1667,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#FLG04") (unit 1)
+          (reference "#FLG05") (unit 1)
         )
       )
     )
@@ -1664,6 +1694,9 @@
     (property "Status" "OK" (at 189.23 93.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 189.23 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 094f93c4-b601-4e0b-a152-2c8f9ef1c766))
     (pin "1" (uuid 1637f29d-b1ac-4ebb-a3ec-d24456810a03))
     (instances
@@ -1678,7 +1711,7 @@
   (symbol (lib_id "power:GND") (at 102.87 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 887a1fa3-42b2-46d5-88c6-4359305160f6)
-    (property "Reference" "#PWR0267" (at 102.87 99.06 0)
+    (property "Reference" "#PWR0317" (at 102.87 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 102.87 97.79 0)
@@ -1694,7 +1727,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0267") (unit 1)
+          (reference "#PWR0317") (unit 1)
         )
       )
     )
@@ -1721,6 +1754,9 @@
     (property "Status" "OK" (at 60.96 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 60.96 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 8dc87f1b-50a0-4493-9148-c84589cf7133))
     (pin "1" (uuid a7f0397c-2d9f-491a-a80e-b7b294b8eb4b))
     (instances
@@ -1735,7 +1771,7 @@
   (symbol (lib_id "power_custom:+4V5") (at 251.46 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99621c16-7479-4955-b3b6-772d0a9ec909)
-    (property "Reference" "#PWR0280" (at 251.46 86.36 0)
+    (property "Reference" "#PWR0330" (at 251.46 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+4V5" (at 251.46 77.47 0)
@@ -1751,7 +1787,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0280") (unit 1)
+          (reference "#PWR0330") (unit 1)
         )
       )
     )
@@ -1760,7 +1796,7 @@
   (symbol (lib_id "power:GND") (at 231.14 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c4e3aea-ac7a-48de-9ca8-ef8c632d12cf)
-    (property "Reference" "#PWR0278" (at 231.14 99.06 0)
+    (property "Reference" "#PWR0328" (at 231.14 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 231.14 97.79 0)
@@ -1776,7 +1812,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0278") (unit 1)
+          (reference "#PWR0328") (unit 1)
         )
       )
     )
@@ -1803,6 +1839,9 @@
     (property "Status" "OK" (at 77.47 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 77.47 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "4" (uuid 240150dd-6558-4172-b37c-cc393927e6b2))
     (pin "5" (uuid d0a23d40-bf87-4057-b1b9-9b0e6a06c30e))
     (pin "1" (uuid 1d7ca4f7-9064-4503-94dd-d07b6fabf932))
@@ -1821,7 +1860,7 @@
   (symbol (lib_id "power:+5V") (at 124.46 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a7808216-d6cb-44fe-93a2-602ae1606c2d)
-    (property "Reference" "#PWR0270" (at 124.46 168.91 0)
+    (property "Reference" "#PWR0320" (at 124.46 168.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 124.46 160.02 0)
@@ -1837,7 +1876,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0270") (unit 1)
+          (reference "#PWR0320") (unit 1)
         )
       )
     )
@@ -1846,7 +1885,7 @@
   (symbol (lib_id "power:GND") (at 175.26 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a9090d91-a1d1-4f29-b551-873638df8721)
-    (property "Reference" "#PWR0274" (at 175.26 83.82 0)
+    (property "Reference" "#PWR0324" (at 175.26 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 82.55 0)
@@ -1862,7 +1901,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0274") (unit 1)
+          (reference "#PWR0324") (unit 1)
         )
       )
     )
@@ -1889,6 +1928,9 @@
     (property "Status" "OK" (at 74.93 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 74.93 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid a17fd7e1-5e62-4f47-9bb7-668bd66bf02f))
     (pin "1" (uuid f27004ac-be4a-430a-8d2f-17319de6a1fb))
     (instances
@@ -1903,7 +1945,7 @@
   (symbol (lib_id "power:GND") (at 116.84 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b42c4abc-e7ba-4853-90c7-7e22e5a0d472)
-    (property "Reference" "#PWR0269" (at 116.84 99.06 0)
+    (property "Reference" "#PWR0319" (at 116.84 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 116.84 97.79 0)
@@ -1919,7 +1961,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0269") (unit 1)
+          (reference "#PWR0319") (unit 1)
         )
       )
     )
@@ -1946,6 +1988,9 @@
     (property "Status" "OK" (at 138.43 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 138.43 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 3cf86bc4-6f8d-4bc3-9112-64c1fcf1ddbb))
     (pin "1" (uuid 72e31d4e-15aa-4625-98f8-7689f5b42760))
     (instances
@@ -1960,7 +2005,7 @@
   (symbol (lib_id "power:GND") (at 217.17 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf6414be-b8f9-42ed-97fd-a2f213ca7cf1)
-    (property "Reference" "#PWR0277" (at 217.17 99.06 0)
+    (property "Reference" "#PWR0327" (at 217.17 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 97.79 0)
@@ -1976,7 +2021,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0277") (unit 1)
+          (reference "#PWR0327") (unit 1)
         )
       )
     )
@@ -1985,7 +2030,7 @@
   (symbol (lib_id "power:GND") (at 81.28 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c440afb1-6e9b-4845-9d1a-2ccf749feb61)
-    (property "Reference" "#PWR0263" (at 81.28 106.68 0)
+    (property "Reference" "#PWR0313" (at 81.28 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 105.41 0)
@@ -2001,7 +2046,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0263") (unit 1)
+          (reference "#PWR0313") (unit 1)
         )
       )
     )
@@ -2010,7 +2055,7 @@
   (symbol (lib_id "power:+12V") (at 93.98 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cbbb5b6f-2718-4684-9a18-d81cbb152199)
-    (property "Reference" "#PWR0265" (at 93.98 158.75 0)
+    (property "Reference" "#PWR0315" (at 93.98 158.75 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 93.98 150.114 0)
@@ -2026,7 +2071,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0265") (unit 1)
+          (reference "#PWR0315") (unit 1)
         )
       )
     )
@@ -2035,7 +2080,7 @@
   (symbol (lib_id "power:GND") (at 60.96 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cf9e2027-fb96-4e30-91d4-613122e2ac0f)
-    (property "Reference" "#PWR0261" (at 60.96 83.82 0)
+    (property "Reference" "#PWR0311" (at 60.96 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 82.55 0)
@@ -2051,7 +2096,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0261") (unit 1)
+          (reference "#PWR0311") (unit 1)
         )
       )
     )
@@ -2076,6 +2121,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Status" "OK" (at 81.28 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN_MOUSER" "" (at 81.28 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 8fabdee2-5532-4dcc-9e38-2f164508c23f))
@@ -2110,6 +2158,9 @@
     (property "Status" "OK" (at 116.84 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 116.84 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid f55f989f-0298-4126-99c4-d0dc75fdaca0))
     (pin "1" (uuid 9ad3e538-d2bf-4407-a830-8bc6b4a62660))
     (instances
@@ -2140,6 +2191,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Status" "OK" (at 189.23 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MPN_MOUSER" "" (at 189.23 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 78cc51db-5600-479f-af11-7c294422f9f6))
@@ -2174,6 +2228,9 @@
     (property "Status" "OK" (at 251.46 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "MPN_MOUSER" "" (at 251.46 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "2" (uuid 607c7ca1-f636-4a5a-8fab-d4aeffeec1e7))
     (pin "1" (uuid 14032d45-4709-42f4-b14a-15ac615d6dd0))
     (instances
@@ -2188,7 +2245,7 @@
   (symbol (lib_id "power:+2V5") (at 125.73 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3c22c8e-0640-4e3e-b1a0-b27044ea8793)
-    (property "Reference" "#PWR0271" (at 125.73 86.36 0)
+    (property "Reference" "#PWR0321" (at 125.73 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 125.73 77.47 0)
@@ -2204,7 +2261,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0271") (unit 1)
+          (reference "#PWR0321") (unit 1)
         )
       )
     )
@@ -2213,7 +2270,7 @@
   (symbol (lib_id "power:+2V5") (at 138.43 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8e80d88-bb6c-4efe-a67c-4250982064e3)
-    (property "Reference" "#PWR0272" (at 138.43 86.36 0)
+    (property "Reference" "#PWR0322" (at 138.43 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+2V5" (at 138.43 77.47 0)
@@ -2229,7 +2286,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0272") (unit 1)
+          (reference "#PWR0322") (unit 1)
         )
       )
     )
@@ -2238,7 +2295,7 @@
   (symbol (lib_id "power:GND") (at 96.52 173.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fc2ecbbd-c8c4-475c-9fd5-2f1c7aee4b4b)
-    (property "Reference" "#PWR0266" (at 96.52 180.34 0)
+    (property "Reference" "#PWR0316" (at 96.52 180.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 179.07 0)
@@ -2254,7 +2311,7 @@
     (instances
       (project "SCART_switcher"
         (path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-          (reference "#PWR0266") (unit 1)
+          (reference "#PWR0316") (unit 1)
         )
       )
     )
