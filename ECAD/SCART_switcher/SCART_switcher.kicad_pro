@@ -454,26 +454,6 @@
       {
         "netclass": "Default",
         "pattern": ""
-      },
-      {
-        "netclass": "75R",
-        "pattern": "/SCART input */RED_SCART_IN"
-      },
-      {
-        "netclass": "75R",
-        "pattern": "/SCART input */GREEN_SCART_IN"
-      },
-      {
-        "netclass": "75R",
-        "pattern": "/SCART input */BLUE_SCART_IN"
-      },
-      {
-        "netclass": "75R",
-        "pattern": "/SCART input */VIDEO_RGB_SYNC_SCART_IN"
-      },
-      {
-        "netclass": "75R",
-        "pattern": "/SCART input */BLANKING_SCART_IN"
       }
     ]
   },
