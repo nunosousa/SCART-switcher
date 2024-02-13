@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "ffcfd30_fffffff9",
-    "zone_display_mode": 1
+    "visible_layers": "ffcfc10_fffffff9",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "SCART_switcher.kicad_prl",
