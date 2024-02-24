@@ -64,8 +64,14 @@
       39,
       40
     ],
-    "visible_layers": "ffcfc10_fffffff9",
-    "zone_display_mode": 0
+    "visible_layers": "ffcfc30_fffffff9",
+    "zone_display_mode": 1
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "SCART_switcher.kicad_prl",
