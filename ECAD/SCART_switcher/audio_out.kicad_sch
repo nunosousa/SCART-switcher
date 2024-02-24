@@ -4088,7 +4088,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 148.59 140.97 0)
+		(at 148.59 110.49 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -4097,7 +4097,7 @@
 		(dnp no)
 		(uuid "3374ad22-c481-4d6b-95ef-707e411e1a69")
 		(property "Reference" "U33"
-			(at 148.59 151.13 0)
+			(at 148.59 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4105,7 +4105,7 @@
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 148.59 148.59 0)
+			(at 148.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4113,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 148.59 140.97 0)
+			(at 148.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4122,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 148.59 140.97 0)
+			(at 148.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4131,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 140.97 0)
+			(at 148.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4140,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 148.59 140.97 0)
+			(at 148.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4149,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 148.59 140.97 0)
+			(at 148.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4158,7 +4158,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 148.59 140.97 0)
+			(at 148.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4167,7 +4167,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 148.59 140.97 0)
+			(at 148.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4176,7 +4176,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 148.59 140.97 0)
+			(at 148.59 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4580,7 +4580,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 148.59 110.49 0)
+		(at 148.59 140.97 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4589,7 +4589,7 @@
 		(dnp no)
 		(uuid "3f69dd44-a6e6-4794-b7df-9a2cd78055d2")
 		(property "Reference" "U33"
-			(at 148.59 120.65 0)
+			(at 148.59 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4597,7 @@
 			)
 		)
 		(property "Value" "OPA1656"
-			(at 148.59 118.11 0)
+			(at 148.59 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4605,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 148.59 110.49 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4614,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2303020130_Texas-Instruments-OPA1656IDR_C1849431.pdf"
-			(at 148.59 110.49 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +4623,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 110.49 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4632,7 +4632,7 @@
 			)
 		)
 		(property "MPN" "OPA1656IDR"
-			(at 148.59 110.49 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4641,7 +4641,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 148.59 110.49 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +4650,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA1656IDR"
-			(at 148.59 110.49 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +4659,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 148.59 110.49 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +4668,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 148.59 110.49 0)
+			(at 148.59 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
