@@ -4922,7 +4922,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:ADA4610-4xR")
-		(at 59.69 78.74 0)
+		(at 90.17 81.28 0)
 		(mirror x)
 		(unit 4)
 		(exclude_from_sim no)
@@ -4931,7 +4931,7 @@
 		(dnp no)
 		(uuid "2b597229-3270-4bb7-99c1-0bd329b02c92")
 		(property "Reference" "U73"
-			(at 59.69 87.63 0)
+			(at 90.17 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4939,7 +4939,7 @@
 			)
 		)
 		(property "Value" "OPA4354"
-			(at 59.69 85.09 0)
+			(at 90.17 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4947,7 +4947,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 59.69 78.74 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +4956,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Texas-Instruments-OPA4354AIDR_C440031.pdf"
-			(at 59.69 78.74 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4965,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 59.69 78.74 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +4974,7 @@
 			)
 		)
 		(property "MPN" "OPA4354AIDR"
-			(at 59.69 78.74 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +4983,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 59.69 78.74 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4992,7 +4992,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA4354AIDR"
-			(at 59.69 78.74 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5001,7 +5001,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 59.69 78.74 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,7 +5010,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 59.69 78.74 0)
+			(at 90.17 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6245,7 +6245,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:ADA4610-4xR")
-		(at 90.17 81.28 0)
+		(at 212.09 81.28 0)
 		(mirror x)
 		(unit 3)
 		(exclude_from_sim no)
@@ -6254,7 +6254,7 @@
 		(dnp no)
 		(uuid "47db0609-bd70-4906-b64d-43d7eb337826")
 		(property "Reference" "U73"
-			(at 90.17 90.17 0)
+			(at 212.09 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6262,7 +6262,7 @@
 			)
 		)
 		(property "Value" "OPA4354"
-			(at 90.17 87.63 0)
+			(at 212.09 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6270,7 +6270,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 90.17 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6279,7 +6279,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Texas-Instruments-OPA4354AIDR_C440031.pdf"
-			(at 90.17 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6288,7 +6288,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6297,7 +6297,7 @@
 			)
 		)
 		(property "MPN" "OPA4354AIDR"
-			(at 90.17 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6306,7 +6306,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 90.17 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6315,7 +6315,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA4354AIDR"
-			(at 90.17 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6324,7 +6324,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 90.17 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6333,7 +6333,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 90.17 81.28 0)
+			(at 212.09 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10735,7 +10735,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:ADA4610-4xR")
-		(at 212.09 81.28 0)
+		(at 59.69 78.74 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10744,7 +10744,7 @@
 		(dnp no)
 		(uuid "ef244813-e875-47c2-b60d-1c31065f385b")
 		(property "Reference" "U73"
-			(at 212.09 90.17 0)
+			(at 59.69 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10752,7 +10752,7 @@
 			)
 		)
 		(property "Value" "OPA4354"
-			(at 212.09 87.63 0)
+			(at 59.69 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10760,7 +10760,7 @@
 			)
 		)
 		(property "Footprint" "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm"
-			(at 212.09 81.28 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10769,7 +10769,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/1912111437_Texas-Instruments-OPA4354AIDR_C440031.pdf"
-			(at 212.09 81.28 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10778,7 +10778,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 212.09 81.28 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10787,7 +10787,7 @@
 			)
 		)
 		(property "MPN" "OPA4354AIDR"
-			(at 212.09 81.28 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10796,7 +10796,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 212.09 81.28 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10805,7 +10805,7 @@
 			)
 		)
 		(property "MPN_MOUSER" "OPA4354AIDR"
-			(at 212.09 81.28 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10814,7 +10814,7 @@
 			)
 		)
 		(property "R % tol" ""
-			(at 212.09 81.28 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10823,7 +10823,7 @@
 			)
 		)
 		(property "R pwr" ""
-			(at 212.09 81.28 0)
+			(at 59.69 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
