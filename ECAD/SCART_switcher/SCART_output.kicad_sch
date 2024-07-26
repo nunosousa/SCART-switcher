@@ -399,7 +399,7 @@
 				)
 			)
 		)
-		(symbol "Conn_Coaxial_1"
+		(symbol "Connector:Conn_Coaxial"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -430,7 +430,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 0 0)
 				(effects
 					(font
@@ -466,7 +466,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_Coaxial_1_0_1"
+			(symbol "Conn_Coaxial_0_1"
 				(arc
 					(start -1.778 -0.508)
 					(mid 0.2311 -1.8066)
@@ -527,7 +527,7 @@
 					)
 				)
 			)
-			(symbol "Conn_Coaxial_1_1_1"
+			(symbol "Conn_Coaxial_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -597,7 +597,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" " ~"
+			(property "Datasheet" "~"
 				(at 0 1.27 0)
 				(effects
 					(font
@@ -3179,7 +3179,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_Coaxial_1")
 		(lib_id "Connector:Conn_Coaxial")
 		(at 220.98 36.83 0)
 		(unit 1)
@@ -3216,7 +3215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "N/A"
+		(property "Datasheet" "~"
 			(at 220.98 36.83 0)
 			(effects
 				(font
@@ -3225,7 +3224,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 220.98 36.83 0)
 			(effects
 				(font
@@ -4382,7 +4381,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "N/A"
+		(property "Datasheet" "~"
 			(at 220.98 123.19 0)
 			(effects
 				(font
@@ -4391,7 +4390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Prise Peritel"
 			(at 220.98 124.46 0)
 			(effects
 				(font
@@ -5063,7 +5062,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_Coaxial_1")
 		(lib_id "Connector:Conn_Coaxial")
 		(at 220.98 54.61 0)
 		(unit 1)
@@ -5100,7 +5098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "N/A"
+		(property "Datasheet" "~"
 			(at 220.98 54.61 0)
 			(effects
 				(font
@@ -5109,7 +5107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
 			(at 220.98 54.61 0)
 			(effects
 				(font
