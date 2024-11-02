@@ -745,7 +745,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R96"
-			(at 0 -1.65 90)
+			(at -1.25 -1.65 90)
 			(layer "F.SilkS")
 			(uuid "1ccfabea-a9ff-4d2c-a8b9-bfb92f15fa46")
 			(effects
@@ -1215,7 +1215,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R95"
-			(at 0 -1.65 90)
+			(at 1 1.75 90)
 			(layer "F.SilkS")
 			(uuid "ae49cbb2-81ec-406f-8e39-400a3b1b05a4")
 			(effects
@@ -1685,7 +1685,7 @@
 		(descr "D_SOD-123F")
 		(tags "D_SOD-123F")
 		(property "Reference" "D71"
-			(at -0.127 -1.905 90)
+			(at -1.25 -1.905 90)
 			(layer "F.SilkS")
 			(uuid "f102f0d9-1afd-400c-b0c3-5e979804a173")
 			(effects
@@ -2256,7 +2256,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q25"
-			(at 0 -2.4 0)
+			(at -1.0625 2.5 0)
 			(layer "F.SilkS")
 			(uuid "eba35c38-6a30-4ce8-953c-8cae38fdadce")
 			(effects
@@ -3185,7 +3185,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R4"
-			(at 0 -1.65 90)
+			(at -2.5 0 90)
 			(layer "F.SilkS")
 			(uuid "b0ed82b1-85c1-428e-9a60-1b552a70b2a5")
 			(effects
@@ -3420,7 +3420,7 @@
 		(descr "SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "SOT TO_SOT_SMD")
 		(property "Reference" "Q24"
-			(at 0 -2.4 0)
+			(at 0.4375 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "fd7b24b6-0e20-46b1-b7ab-2ef2ef5381e3")
 			(effects
@@ -4834,7 +4834,7 @@
 		(descr "SOT-353, SC-70-5")
 		(tags "SOT-353 SC-70-5")
 		(property "Reference" "U34"
-			(at 0 -2.25 180)
+			(at 3.05 0 180)
 			(layer "F.SilkS")
 			(uuid "ecc504ae-52ef-4feb-b8c8-4b4582b7d7c1")
 			(effects
@@ -5153,7 +5153,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C45"
-			(at 0 -1.43 0)
+			(at 0 2 0)
 			(layer "F.SilkS")
 			(uuid "559bf54a-7ead-4272-bae1-e298703a3ff3")
 			(effects
@@ -24264,6 +24264,14 @@
 		(uuid "1b209fad-01c5-4003-a51a-579650256b28")
 	)
 	(segment
+		(start 28.6 38.4)
+		(end 23.8 38.4)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "1d88c86c-314e-4139-9825-1e9356cd4ad1")
+	)
+	(segment
 		(start 20.025 63.5)
 		(end 19.75 63.775)
 		(width 0.35)
@@ -24294,6 +24302,14 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "37d4b309-59b4-4bda-a9ba-2e0bfdca9fd0")
+	)
+	(segment
+		(start 31.8 38.4)
+		(end 28.6 38.4)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "3be59e09-c454-48f3-9414-0ce3c6585478")
 	)
 	(segment
 		(start 34.5 38.4)
@@ -24342,6 +24358,14 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "4a4d61a4-a1de-4568-a0e3-138b57cb1993")
+	)
+	(segment
+		(start 34.5 38.4)
+		(end 31.8 38.4)
+		(width 0.5)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "4b1d35c3-fa02-4582-9382-8120bc7f3596")
 	)
 	(segment
 		(start 20.75 63.5)
@@ -24566,14 +24590,6 @@
 		(layer "B.Cu")
 		(net 1)
 		(uuid "b280f05e-9d01-474e-b49f-50c969326e16")
-	)
-	(segment
-		(start 23.8 38.4)
-		(end 34.5 38.4)
-		(width 0.5)
-		(layer "B.Cu")
-		(net 1)
-		(uuid "b49c7344-fbef-4ddb-9b42-39b6f7de2871")
 	)
 	(segment
 		(start 39.025 50.225)
