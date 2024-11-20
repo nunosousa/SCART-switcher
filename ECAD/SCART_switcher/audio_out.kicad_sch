@@ -1200,16 +1200,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 39.37) (xy 125.73 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "21220003-1b83-4314-ae8e-a6defdcd13e3")
-	)
-	(wire
-		(pts
 			(xy 156.21 72.39) (xy 157.48 72.39)
 		)
 		(stroke
@@ -1310,7 +1300,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 69.85) (xy 120.65 138.43)
+			(xy 120.65 107.95) (xy 130.81 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43f74993-eb75-4988-b423-4a5700842ff4")
+	)
+	(wire
+		(pts
+			(xy 120.65 69.85) (xy 120.65 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1427,16 +1427,6 @@
 			(type default)
 		)
 		(uuid "663ae8f3-af73-4eba-b6de-b9d14f6366ae")
-	)
-	(wire
-		(pts
-			(xy 130.81 107.95) (xy 125.73 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68267897-675b-4701-9030-a398cc9edd2e")
 	)
 	(wire
 		(pts
@@ -1570,16 +1560,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 138.43) (xy 120.65 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c6ecedc-419c-4bc2-bfe5-2e8b91c6f9f7")
-	)
-	(wire
-		(pts
 			(xy 182.88 72.39) (xy 184.15 72.39)
 		)
 		(stroke
@@ -1627,6 +1607,16 @@
 			(type default)
 		)
 		(uuid "95ed0ccf-672c-482f-a934-ea9c5418a274")
+	)
+	(wire
+		(pts
+			(xy 125.73 138.43) (xy 130.81 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97c681c4-8e3e-453b-a18f-4e7ab0601082")
 	)
 	(wire
 		(pts
@@ -1777,6 +1767,16 @@
 			(type default)
 		)
 		(uuid "ca36c256-c387-492a-84e0-5922b279ff8d")
+	)
+	(wire
+		(pts
+			(xy 125.73 39.37) (xy 125.73 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba76f88-fc65-45d9-9e1b-3a952ef46f01")
 	)
 	(wire
 		(pts
@@ -2141,7 +2141,7 @@
 	)
 	(hierarchical_label "AUDIO_RIGHT_OUT_B"
 		(shape output)
-		(at 184.15 140.97 0)
+		(at 184.15 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2165,7 +2165,7 @@
 	)
 	(hierarchical_label "AUDIO_LEFT_OUT_B"
 		(shape output)
-		(at 184.15 110.49 0)
+		(at 184.15 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
