@@ -753,7 +753,6 @@
 	(hierarchical_label "IN_ENABLE"
 		(shape output)
 		(at 157.48 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -765,7 +764,6 @@
 	(hierarchical_label "CARRY_IN"
 		(shape input)
 		(at 129.54 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -777,7 +775,6 @@
 	(hierarchical_label "IN_ACTIVE"
 		(shape input)
 		(at 90.17 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -789,7 +786,6 @@
 	(hierarchical_label "CARRY_IN"
 		(shape input)
 		(at 129.54 106.68 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -801,7 +797,6 @@
 	(hierarchical_label "IN_ACTIVE"
 		(shape input)
 		(at 129.54 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -813,7 +808,6 @@
 	(hierarchical_label "CARRY_OUT"
 		(shape output)
 		(at 157.48 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

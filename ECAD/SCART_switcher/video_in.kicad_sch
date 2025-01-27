@@ -1863,7 +1863,6 @@
 	(hierarchical_label "ENABLE"
 		(shape input)
 		(at 63.5 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1875,7 +1874,6 @@
 	(hierarchical_label "RED_OUT"
 		(shape output)
 		(at 71.12 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1887,7 +1885,6 @@
 	(hierarchical_label "RED_IN"
 		(shape input)
 		(at 27.94 100.33 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1899,7 +1896,6 @@
 	(hierarchical_label "GREEN_OUT"
 		(shape output)
 		(at 71.12 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1911,7 +1907,6 @@
 	(hierarchical_label "ENABLE"
 		(shape input)
 		(at 63.5 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1923,7 +1918,6 @@
 	(hierarchical_label "ENABLE"
 		(shape input)
 		(at 208.28 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1935,7 +1929,6 @@
 	(hierarchical_label "BLUE_OUT"
 		(shape output)
 		(at 215.9 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1947,7 +1940,6 @@
 	(hierarchical_label "VIDEO_RGB_SYNC_OUT"
 		(shape output)
 		(at 215.9 96.52 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1959,7 +1951,6 @@
 	(hierarchical_label "BLANKING_IN"
 		(shape input)
 		(at 43.18 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1971,7 +1962,6 @@
 	(hierarchical_label "BLANKING_OUT"
 		(shape output)
 		(at 71.12 154.94 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1983,7 +1973,6 @@
 	(hierarchical_label "ENABLE"
 		(shape input)
 		(at 63.5 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1995,7 +1984,6 @@
 	(hierarchical_label "GREEN_IN"
 		(shape input)
 		(at 27.94 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2007,7 +1995,6 @@
 	(hierarchical_label "ENABLE"
 		(shape input)
 		(at 208.28 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2019,7 +2006,6 @@
 	(hierarchical_label "VIDEO_RGB_SYNC_IN"
 		(shape input)
 		(at 172.72 99.06 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2031,7 +2017,6 @@
 	(hierarchical_label "BLUE_IN"
 		(shape input)
 		(at 172.72 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

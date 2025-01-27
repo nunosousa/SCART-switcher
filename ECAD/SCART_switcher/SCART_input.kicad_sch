@@ -5,126 +5,6 @@
 	(uuid "fdd0d15c-5e70-459a-9e9e-d58fad214741")
 	(paper "A4")
 	(lib_symbols
-		(symbol "+12V_1"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_1_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "+5V_1"
 			(power)
 			(pin_numbers hide)
@@ -2949,17 +2829,6 @@
 		)
 		(uuid "fe94fc96-5166-45a2-b1c9-dbcf175cbb14")
 	)
-	(text "0.3W min"
-		(exclude_from_sim no)
-		(at 266.7 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1d6febbc-18c2-483d-a3b3-baf8fb3b7f1b")
-	)
 	(text "Load: 75ohm"
 		(exclude_from_sim no)
 		(at 116.84 48.26 0)
@@ -3015,7 +2884,7 @@
 		)
 		(uuid "3bd28d39-8765-4da9-abda-adeb1827d569")
 	)
-	(text "I=10mA"
+	(text "I=20mA"
 		(exclude_from_sim no)
 		(at 260.35 119.38 0)
 		(effects
@@ -3193,7 +3062,6 @@
 	)
 	(label "BLANKING_SCART_IN"
 		(at 24.13 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3204,7 +3072,6 @@
 	)
 	(label "IN_ENABLE"
 		(at 251.46 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3215,7 +3082,6 @@
 	)
 	(label "BLUE_SCART_IN"
 		(at 41.91 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3226,7 +3092,6 @@
 	)
 	(label "BLANKING_SCART_IN"
 		(at 115.57 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3237,7 +3102,6 @@
 	)
 	(label "IN_ENABLE"
 		(at 208.28 146.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3248,7 +3112,6 @@
 	)
 	(label "AUDIO_RIGHT_SCART_IN"
 		(at 115.57 93.98 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3259,7 +3122,6 @@
 	)
 	(label "RED_SCART_IN"
 		(at 41.91 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3270,7 +3132,6 @@
 	)
 	(label "BLUE_SCART_IN"
 		(at 176.53 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3281,7 +3142,6 @@
 	)
 	(label "VIDEO_RGB_SYNC_SCART_IN"
 		(at 24.13 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3292,7 +3152,6 @@
 	)
 	(label "RED_SCART_IN"
 		(at 24.13 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3303,7 +3162,6 @@
 	)
 	(label "GREEN_SCART_IN"
 		(at 24.13 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3314,7 +3172,6 @@
 	)
 	(label "BLANKING_SCART_IN"
 		(at 176.53 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3325,7 +3182,6 @@
 	)
 	(label "RED_SCART_IN"
 		(at 176.53 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3336,7 +3192,6 @@
 	)
 	(label "FUNCTION_SCART_IN"
 		(at 115.57 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3347,7 +3202,6 @@
 	)
 	(label "IN_ACTIVE"
 		(at 255.27 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3358,7 +3212,6 @@
 	)
 	(label "GREEN_SCART_IN"
 		(at 176.53 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3369,7 +3222,6 @@
 	)
 	(label "IN_ACTIVE"
 		(at 196.85 93.98 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3380,7 +3232,6 @@
 	)
 	(label "IN_ENABLE"
 		(at 33.02 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3391,7 +3242,6 @@
 	)
 	(label "FUNCTION_SCART_IN"
 		(at 166.37 35.56 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3402,7 +3252,6 @@
 	)
 	(label "IN_ENABLE"
 		(at 24.13 175.26 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3413,7 +3262,6 @@
 	)
 	(label "AUDIO_LEFT_SCART_IN"
 		(at 33.02 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3424,7 +3272,6 @@
 	)
 	(label "VIDEO_RGB_SYNC_SCART_IN"
 		(at 176.53 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3435,7 +3282,6 @@
 	)
 	(label "VIDEO_RGB_SYNC_SCART_IN"
 		(at 115.57 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3446,7 +3292,6 @@
 	)
 	(label "AUDIO_RIGHT_SCART_IN"
 		(at 33.02 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3457,7 +3302,6 @@
 	)
 	(label "BLUE_SCART_IN"
 		(at 24.13 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3468,7 +3312,6 @@
 	)
 	(label "GREEN_SCART_IN"
 		(at 41.91 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3479,7 +3322,6 @@
 	)
 	(label "AUDIO_LEFT_SCART_IN"
 		(at 115.57 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3491,7 +3333,6 @@
 	(hierarchical_label "BLUE"
 		(shape output)
 		(at 101.6 166.37 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3503,7 +3344,6 @@
 	(hierarchical_label "CARRY_IN"
 		(shape input)
 		(at 207.01 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3515,7 +3355,6 @@
 	(hierarchical_label "AUDIO_LEFT"
 		(shape output)
 		(at 96.52 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3527,7 +3366,6 @@
 	(hierarchical_label "CARRY_OUT"
 		(shape output)
 		(at 240.03 92.71 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3539,7 +3377,6 @@
 	(hierarchical_label "AUDIO_RIGHT"
 		(shape output)
 		(at 96.52 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3551,7 +3388,6 @@
 	(hierarchical_label "BLANKING"
 		(shape output)
 		(at 101.6 168.91 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3563,7 +3399,6 @@
 	(hierarchical_label "GREEN"
 		(shape output)
 		(at 101.6 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3575,7 +3410,6 @@
 	(hierarchical_label "VIDEO_RGB_SYNC"
 		(shape output)
 		(at 101.6 158.75 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3587,7 +3421,6 @@
 	(hierarchical_label "RED"
 		(shape output)
 		(at 101.6 161.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5241,93 +5074,6 @@
 		)
 	)
 	(symbol
-		(lib_name "+12V_1")
-		(lib_id "power:+12V")
-		(at 264.16 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5cac7d8f-bbe1-4815-af2d-758f0d63aa45")
-		(property "Reference" "#PWR0924"
-			(at 264.16 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 264.16 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 264.16 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b5fc36de-b300-4e7e-bc90-07b2850906f0")
-		)
-		(instances
-			(project "SCART_switcher"
-				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
-					(reference "#PWR0924")
-					(unit 1)
-				)
-				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/56b7edd2-65bf-4844-b6bd-3868b6562f83"
-					(reference "#PWR0926")
-					(unit 1)
-				)
-				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
-					(reference "#PWR0920")
-					(unit 1)
-				)
-				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc"
-					(reference "#PWR0922")
-					(unit 1)
-				)
-				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/a066fdde-5f40-4269-95c1-258d611fd7cb"
-					(reference "#PWR0928")
-					(unit 1)
-				)
-				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/ec158eb5-f3e0-409c-b64c-a90e3358941f"
-					(reference "#PWR0930")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Diode:BZT52Bxx")
 		(at 146.05 95.25 180)
 		(unit 1)
@@ -5455,6 +5201,93 @@
 				)
 				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/ec158eb5-f3e0-409c-b64c-a90e3358941f"
 					(reference "D38")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 264.16 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68050f14-5745-48ae-b88f-e4145785ed13")
+		(property "Reference" "#PWR018"
+			(at 264.16 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 264.16 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 264.16 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30bd9e67-92b2-49ca-b4ef-82e0573ad427")
+		)
+		(instances
+			(project "SCART_switcher"
+				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/272a4677-3ef2-418e-abc5-b29f59e726f9"
+					(reference "#PWR018")
+					(unit 1)
+				)
+				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/56b7edd2-65bf-4844-b6bd-3868b6562f83"
+					(reference "#PWR020")
+					(unit 1)
+				)
+				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/6e53f4c9-ed59-4c5d-ac8d-a66f0d353ca7"
+					(reference "#PWR08")
+					(unit 1)
+				)
+				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/8ea6db35-25d0-43bc-9de5-3ca23502dcdc"
+					(reference "#PWR016")
+					(unit 1)
+				)
+				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/a066fdde-5f40-4269-95c1-258d611fd7cb"
+					(reference "#PWR022")
+					(unit 1)
+				)
+				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/ec158eb5-f3e0-409c-b64c-a90e3358941f"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -6729,7 +6562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1kR"
+		(property "Value" "140R"
 			(at 262.382 138.43 0)
 			(effects
 				(font
@@ -6738,7 +6571,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 265.938 137.16 90)
 			(effects
 				(font
@@ -6747,7 +6580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-AC1210JR-071KL_C230418.pdf"
+		(property "Datasheet" ""
 			(at 264.16 137.16 0)
 			(effects
 				(font

@@ -2796,7 +2796,6 @@
 	)
 	(label "RED_SCART_OUT"
 		(at 186.69 114.3 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2807,7 +2806,6 @@
 	)
 	(label "BLUE_SCART_OUT"
 		(at 186.69 134.62 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2818,7 +2816,6 @@
 	)
 	(label "BLANKING_SCART_OUT"
 		(at 264.16 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2829,7 +2826,6 @@
 	)
 	(label "FUNCTION_SCART_OUT"
 		(at 167.64 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2840,7 +2836,6 @@
 	)
 	(label "AUDIO_RCA_LEFT"
 		(at 132.08 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2851,7 +2846,6 @@
 	)
 	(label "AUDIO_SCART_OUT_LEFT"
 		(at 264.16 137.16 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2862,7 +2856,6 @@
 	)
 	(label "BLANKING_SCART_OUT"
 		(at 139.7 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2873,7 +2866,6 @@
 	)
 	(label "VIDEO_RGB_SYNC_SCART_OUT"
 		(at 139.7 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2884,7 +2876,6 @@
 	)
 	(label "AUDIO_SCART_OUT_LEFT"
 		(at 132.08 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2895,7 +2886,6 @@
 	)
 	(label "AUDIO_SCART_OUT_RIGHT"
 		(at 264.16 147.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2906,7 +2896,6 @@
 	)
 	(label "RED_SCART_OUT"
 		(at 139.7 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2917,7 +2906,6 @@
 	)
 	(label "AUDIO_RCA_RIGHT"
 		(at 132.08 57.15 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2928,7 +2916,6 @@
 	)
 	(label "AUDIO_RCA_LEFT"
 		(at 196.85 36.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2939,7 +2926,6 @@
 	)
 	(label "BLUE_SCART_OUT"
 		(at 139.7 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2950,7 +2936,6 @@
 	)
 	(label "AUDIO_RCA_RIGHT"
 		(at 196.85 54.61 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2961,7 +2946,6 @@
 	)
 	(label "VIDEO_RGB_SYNC_SCART_OUT"
 		(at 264.16 101.6 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2972,7 +2956,6 @@
 	)
 	(label "GREEN_SCART_OUT"
 		(at 186.69 124.46 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2983,7 +2966,6 @@
 	)
 	(label "FUNCTION_SCART_OUT"
 		(at 264.16 132.08 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2994,7 +2976,6 @@
 	)
 	(label "AUDIO_SCART_OUT_RIGHT"
 		(at 132.08 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3005,7 +2986,6 @@
 	)
 	(label "GREEN_SCART_OUT"
 		(at 139.7 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3017,7 +2997,6 @@
 	(hierarchical_label "GREEN"
 		(shape input)
 		(at 60.96 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3029,7 +3008,6 @@
 	(hierarchical_label "~{OUT_ACTIVE}"
 		(shape input)
 		(at 60.96 157.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3041,7 +3019,6 @@
 	(hierarchical_label "AUDIO_RIGHT"
 		(shape input)
 		(at 64.77 50.8 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3053,7 +3030,6 @@
 	(hierarchical_label "BLANKING"
 		(shape input)
 		(at 60.96 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3065,7 +3041,6 @@
 	(hierarchical_label "VIDEO_RGB_SYNC"
 		(shape input)
 		(at 60.96 68.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3077,7 +3052,6 @@
 	(hierarchical_label "RED"
 		(shape input)
 		(at 60.96 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3089,7 +3063,6 @@
 	(hierarchical_label "BLUE"
 		(shape input)
 		(at 60.96 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3101,7 +3074,6 @@
 	(hierarchical_label "AUDIO_LEFT"
 		(shape input)
 		(at 64.77 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

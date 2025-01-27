@@ -3251,7 +3251,6 @@
 	)
 	(label "0.7V"
 		(at 52.07 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3263,7 +3262,6 @@
 	(hierarchical_label "GREEN_IN"
 		(shape input)
 		(at 49.53 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3275,7 +3273,6 @@
 	(hierarchical_label "GREEN_OUT"
 		(shape output)
 		(at 124.46 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3287,7 +3284,6 @@
 	(hierarchical_label "BLANKING_IN"
 		(shape input)
 		(at 63.5 168.91 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3299,7 +3295,6 @@
 	(hierarchical_label "RED_OUT"
 		(shape output)
 		(at 124.46 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3311,7 +3306,6 @@
 	(hierarchical_label "VIDEO_RGB_SYNC_OUT"
 		(shape output)
 		(at 246.38 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3323,7 +3317,6 @@
 	(hierarchical_label "BLUE_IN"
 		(shape input)
 		(at 171.45 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3335,7 +3328,6 @@
 	(hierarchical_label "BLUE_OUT"
 		(shape output)
 		(at 246.38 44.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3347,7 +3339,6 @@
 	(hierarchical_label "RED_IN"
 		(shape input)
 		(at 49.53 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3359,7 +3350,6 @@
 	(hierarchical_label "BLANKING_OUT"
 		(shape output)
 		(at 116.84 171.45 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3371,7 +3361,6 @@
 	(hierarchical_label "VIDEO_RGB_SYNC_IN"
 		(shape input)
 		(at 171.45 76.2 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
