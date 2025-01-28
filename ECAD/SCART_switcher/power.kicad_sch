@@ -2413,6 +2413,46 @@
 		)
 		(uuid "861bf6b3-1c98-46cf-9507-2553328a6b14")
 	)
+	(text "?"
+		(exclude_from_sim no)
+		(at 81.28 73.914 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "86697f31-61e1-4fd2-9092-6f60cff81355")
+	)
+	(text "?"
+		(exclude_from_sim no)
+		(at 74.93 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c713d3ec-ab5e-4832-bd51-77551db91e2b")
+	)
+	(text "?"
+		(exclude_from_sim no)
+		(at 74.93 94.234 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d461810a-4378-4257-ade4-aaa8d6824351")
+	)
+	(text "?"
+		(exclude_from_sim no)
+		(at 81.28 63.754 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "eabde473-5f81-4475-a8bf-c2a374b27e97")
+	)
 	(symbol
 		(lib_id "Reference_Voltage:LM4041LP-ADJ")
 		(at 195.58 88.9 90)
@@ -3773,73 +3813,6 @@
 			(project "SCART_switcher"
 				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
 					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "+9V_1")
-		(lib_id "power:+9V")
-		(at 81.28 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "674f4064-c9ed-40e3-8e7e-8b593efcf48e")
-		(property "Reference" "#PWR0312"
-			(at 81.28 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+9V"
-			(at 81.28 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 81.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 81.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 81.28 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "258d3718-6bb9-4507-b41b-57bc7194f681")
-		)
-		(instances
-			(project "SCART_switcher"
-				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
-					(reference "#PWR0312")
 					(unit 1)
 				)
 			)
@@ -5493,6 +5466,73 @@
 			(project "SCART_switcher"
 				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
 					(reference "#PWR0304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "+5V_1")
+		(lib_id "power:+5V")
+		(at 81.28 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc5acae9-8838-4fe2-b0d6-029ddcc6aac3")
+		(property "Reference" "#PWR087"
+			(at 81.28 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 81.28 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 81.28 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00b3aa26-d9dc-4a53-8d3b-6b8c81c527a4")
+		)
+		(instances
+			(project "SCART_switcher"
+				(path "/8cd08eb5-4755-4ef5-8eeb-77fd9974b180/19b1c794-1d68-480b-a4cd-c99f5e9ef1e6"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
