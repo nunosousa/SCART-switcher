@@ -3390,7 +3390,7 @@
 	(symbol
 		(lib_name "+12V_1")
 		(lib_id "power:+12V")
-		(at 93.98 154.94 0)
+		(at 109.22 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3399,7 +3399,7 @@
 		(fields_autoplaced yes)
 		(uuid "5252f7ce-bc12-4cc6-9cfc-47bbf9a2b7b3")
 		(property "Reference" "#PWR033"
-			(at 93.98 158.75 0)
+			(at 109.22 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3408,7 +3408,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 93.98 149.86 0)
+			(at 109.22 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3416,7 +3416,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 93.98 154.94 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3425,7 +3425,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 93.98 154.94 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3434,7 +3434,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 93.98 154.94 0)
+			(at 109.22 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4352,7 +4352,7 @@
 	(symbol
 		(lib_name "+5V_1")
 		(lib_id "power:+5V")
-		(at 124.46 165.1 0)
+		(at 93.98 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4361,7 +4361,7 @@
 		(fields_autoplaced yes)
 		(uuid "72137373-ebe3-4727-835b-ccf53b3f68c9")
 		(property "Reference" "#PWR0320"
-			(at 124.46 168.91 0)
+			(at 93.98 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4370,7 +4370,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 124.46 160.02 0)
+			(at 93.98 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +4378,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 165.1 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +4387,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 165.1 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +4396,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 124.46 165.1 0)
+			(at 93.98 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4976,7 +4976,7 @@
 	(symbol
 		(lib_name "+9V_1")
 		(lib_id "power:+9V")
-		(at 109.22 160.02 0)
+		(at 124.46 165.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4985,7 +4985,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ef57223-61b5-48f1-a9f4-f4efee14cf9d")
 		(property "Reference" "#PWR0318"
-			(at 109.22 163.83 0)
+			(at 124.46 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4994,7 +4994,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 109.22 154.94 0)
+			(at 124.46 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5002,7 +5002,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 160.02 0)
+			(at 124.46 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +5011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 160.02 0)
+			(at 124.46 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +5020,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 109.22 160.02 0)
+			(at 124.46 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
