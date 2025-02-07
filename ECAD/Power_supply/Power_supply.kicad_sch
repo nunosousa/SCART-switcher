@@ -3949,6 +3949,12 @@
 		(uuid "2f8ed030-b618-423e-a496-b216e7fb01a2")
 	)
 	(junction
+		(at 242.57 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "368d0c9b-8562-4094-8d6f-e4f7c97777a3")
+	)
+	(junction
 		(at 200.66 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4007,12 +4013,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "68d14d58-543e-4f7a-8d4d-3e4ef7bd72d5")
-	)
-	(junction
-		(at 196.85 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6d7457ce-bffa-4493-b528-e97e9e618ce0")
 	)
 	(junction
 		(at 95.25 173.99)
@@ -4606,7 +4606,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 106.68) (xy 205.74 106.68)
+			(xy 194.31 106.68) (xy 205.74 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4854,6 +4854,16 @@
 		)
 		(uuid "84bbb2fd-dc71-4d95-b2ed-df3526722d40")
 	)
+	(polyline
+		(pts
+			(xy 90.17 101.6) (xy 95.25 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89e24be0-06ab-4f40-987e-c1bfa9090ea7")
+	)
 	(wire
 		(pts
 			(xy 106.68 107.95) (xy 121.92 107.95)
@@ -4943,6 +4953,16 @@
 			(type default)
 		)
 		(uuid "9adaf0d5-8821-442f-b362-7970a74966cd")
+	)
+	(wire
+		(pts
+			(xy 242.57 48.26) (xy 248.92 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be8f6c4-b27c-4871-9518-32c5508f1c24")
 	)
 	(wire
 		(pts
@@ -5043,6 +5063,16 @@
 			(type default)
 		)
 		(uuid "a7e245f5-68f9-467c-813e-0583987b5425")
+	)
+	(polyline
+		(pts
+			(xy 90.17 157.48) (xy 95.25 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8562b88-5c13-4a84-bb75-919030a61d52")
 	)
 	(wire
 		(pts
@@ -5376,23 +5406,13 @@
 	)
 	(wire
 		(pts
-			(xy 238.76 48.26) (xy 248.92 48.26)
+			(xy 238.76 48.26) (xy 242.57 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e7a019aa-da81-4bfc-a100-d3f190a704d1")
-	)
-	(wire
-		(pts
-			(xy 194.31 106.68) (xy 196.85 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8a58c25-ca1b-493e-9553-707ff11f03e7")
 	)
 	(wire
 		(pts
@@ -5495,6 +5515,17 @@
 		)
 		(uuid "1e9b30d9-80d4-42c4-8715-ae5a599cb20c")
 	)
+	(text "I_{5V max} = 300mA"
+		(exclude_from_sim no)
+		(at 106.68 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f34a3fa-eeed-4d13-ac8b-4d644fe49ea3")
+	)
 	(text "5V power supply"
 		(exclude_from_sim no)
 		(at 73.66 88.9 0)
@@ -5527,6 +5558,17 @@
 			(justify left bottom)
 		)
 		(uuid "24c623fb-058f-4c6d-804b-d59da9e902de")
+	)
+	(text "I_{9V max} = 100mA"
+		(exclude_from_sim no)
+		(at 107.442 160.782 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "534771f7-1c73-407f-8f56-a7c82c7c2e6a")
 	)
 	(text "Reverse polarity\nprotection"
 		(exclude_from_sim no)
@@ -5561,6 +5603,26 @@
 		)
 		(uuid "7f169d1f-5b87-4b83-806e-7e2796089acd")
 	)
+	(text "Junction-to-case (bottom)\nthermal resistance: 0.1 °C/W"
+		(exclude_from_sim no)
+		(at 109.982 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ab59f12-31e6-49f6-98ab-1eab3c70363b")
+	)
+	(text "Thermal resistance: 14 °C/W"
+		(exclude_from_sim no)
+		(at 64.77 133.858 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a22c6980-55b2-4a1c-ad83-03da63acb592")
+	)
 	(text "EMI filter"
 		(exclude_from_sim no)
 		(at 186.69 36.83 0)
@@ -5572,6 +5634,17 @@
 		)
 		(uuid "ac6a1c48-9a63-4379-af1c-ec92de9c4c29")
 	)
+	(text "Thermal calculations\n\nU1 power dissipation:\nPD = PI - PO = (VI - VO)*IO\n= (12 - 9)*0.1\n= 0.3 W\n\nThermal resistances:\nθJA = θJC + θCS + θSA\n= 0.1 + 0.4 + 14\n= 14.5 °C/W\n\nJunction temperature rise:\n(TJ-TA)/PD = θJA\nTJ = θJA*PD + TA\nTJ = 14.5*0.3 + 25\nTJ = 29.35 °C\n\nTJmax = 125 °C"
+		(exclude_from_sim no)
+		(at 15.748 169.418 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b07ceed6-cfbc-4934-a2e0-4f8099b27992")
+	)
 	(text "9V power supply"
 		(exclude_from_sim no)
 		(at 73.66 144.78 0)
@@ -5582,6 +5655,37 @@
 			(justify left bottom)
 		)
 		(uuid "c64367b8-335a-405e-8a19-8f85e671cbe1")
+	)
+	(text "Thermal resistance: 14 °C/W"
+		(exclude_from_sim no)
+		(at 65.024 189.738 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dce0cbc5-ef3b-41c3-8e80-7f81c1201e7e")
+	)
+	(text "Junction-to-case (bottom)\nthermal resistance: 0.1 °C/W"
+		(exclude_from_sim no)
+		(at 109.982 151.892 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "de9a8223-eaa0-4f25-9e51-dc5130314265")
+	)
+	(text "Thermal calculations\n\nU1 power dissipation:\nPD = PI - PO = (VI - VO)*IO\n= (12 - 5)*0.3\n= 2.1 W\n\nThermal resistances:\nθJA = θJC + θCS + θSA\n= 0.1 + 0.4 + 14\n= 14.5 °C/W\n\nJunction temperature rise:\n(TJ-TA)/PD = θJA\nTJ = θJA*PD + TA\nTJ = 14.5*2.1 + 25\nTJ = 41.6 °C\n\nTJmax = 125 °C"
+		(exclude_from_sim no)
+		(at 16.002 113.538 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e5b4dbe6-e105-4a06-bc5e-f847b9738d9c")
 	)
 	(text "Transient\novervoltage\nprotection"
 		(exclude_from_sim no)
@@ -5838,7 +5942,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 218.44 115.57 0)
+		(at 205.74 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5847,7 +5951,7 @@
 		(fields_autoplaced yes)
 		(uuid "0f930039-f476-4866-8516-3f13131b4d4f")
 		(property "Reference" "#PWR023"
-			(at 218.44 119.38 0)
+			(at 205.74 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5856,7 +5960,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 218.44 110.49 0)
+			(at 205.74 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5864,7 +5968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 115.57 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5873,7 +5977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 115.57 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5882,7 +5986,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 218.44 115.57 0)
+			(at 205.74 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7244,72 +7348,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 196.85 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55dcea19-d08a-4b8b-b001-ab7d71e9c5dd")
-		(property "Reference" "#FLG02"
-			(at 196.85 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 196.85 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 196.85 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e04023bc-8e42-44eb-84b0-ff254d87813a")
-		)
-		(instances
-			(project "Power_supply"
-				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
-					(reference "#FLG02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 62.23 168.91 0)
 		(unit 1)
@@ -7694,6 +7732,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 242.57 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5f252967-6495-4f28-9d20-70a09cdd8a1c")
+		(property "Reference" "#FLG02"
+			(at 242.57 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 242.57 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 242.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 242.57 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1bc1bf99-fb13-4bee-8b95-fde1d802c16e")
+		)
+		(instances
+			(project "Power_supply"
+				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 60.96 0)
 		(unit 1)
@@ -7981,7 +8085,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 205.74 105.41 0)
+		(at 212.09 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7990,7 +8094,7 @@
 		(fields_autoplaced yes)
 		(uuid "74e52cbc-1316-48a9-b868-62a62f96970a")
 		(property "Reference" "#PWR021"
-			(at 205.74 109.22 0)
+			(at 212.09 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,7 +8103,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 205.74 100.584 0)
+			(at 212.09 105.664 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8007,7 +8111,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 205.74 105.41 0)
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8016,7 +8120,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 205.74 105.41 0)
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8025,7 +8129,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 205.74 105.41 0)
+			(at 212.09 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9117,7 +9221,7 @@
 	)
 	(symbol
 		(lib_id "power:+9V")
-		(at 212.09 110.49 0)
+		(at 218.44 115.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9126,7 +9230,7 @@
 		(fields_autoplaced yes)
 		(uuid "b28431c6-129b-429b-9364-ebebf18f10b0")
 		(property "Reference" "#PWR022"
-			(at 212.09 114.3 0)
+			(at 218.44 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9135,7 +9239,7 @@
 			)
 		)
 		(property "Value" "+9V"
-			(at 212.09 105.41 0)
+			(at 218.44 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9143,7 +9247,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 212.09 110.49 0)
+			(at 218.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9152,7 +9256,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 212.09 110.49 0)
+			(at 218.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9161,7 +9265,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+9V\""
-			(at 212.09 110.49 0)
+			(at 218.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
