@@ -4211,6 +4211,12 @@
 		(uuid "4f887c5b-115d-4f4b-927c-1be41bb71782")
 	)
 	(junction
+		(at 129.54 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "552c2267-7b5d-4d73-8cc5-3b77c2de2b90")
+	)
+	(junction
 		(at 154.94 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4247,12 +4253,6 @@
 		(uuid "6e1198b3-2f1c-4f9b-b110-9948671bcb9d")
 	)
 	(junction
-		(at 203.2 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77e40a94-67a0-498a-bde1-f666e974b59a")
-	)
-	(junction
 		(at 226.06 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4269,12 +4269,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79623f25-ea5c-48b2-978c-e029cebbd05c")
-	)
-	(junction
-		(at 140.97 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7dc5febe-cf91-4a5e-accc-7434f360802f")
 	)
 	(junction
 		(at 238.76 43.18)
@@ -4307,12 +4301,6 @@
 		(uuid "9cf38233-851c-464c-b819-ae1b163c43d7")
 	)
 	(junction
-		(at 127 153.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a14a1577-0dbb-4310-a1e9-665ba72a5756")
-	)
-	(junction
 		(at 187.96 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4337,10 +4325,16 @@
 		(uuid "b67d2146-d1df-4b0a-8e2a-9bc7f6d7a601")
 	)
 	(junction
-		(at 130.81 97.79)
+		(at 205.74 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "bc814159-eb79-410f-97ee-1967b0601686")
+		(uuid "bea37a74-0ced-46c0-b71d-aa572c9963f5")
+	)
+	(junction
+		(at 129.54 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1f70cd1-e9b2-497d-9c72-54cca0d476fc")
 	)
 	(junction
 		(at 158.75 33.02)
@@ -4359,12 +4353,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca444523-c10e-4161-9cc8-a033551a911a")
-	)
-	(junction
-		(at 144.78 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd8f0da5-75f2-4a14-afd5-23832b365b27")
 	)
 	(junction
 		(at 248.92 43.18)
@@ -4437,12 +4425,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa1a259b-cd7e-444f-aa38-a4c612daa694")
-	)
-	(junction
-		(at 217.17 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff16f33e-3aae-4a23-ba94-3e337c1e4790")
 	)
 	(no_connect
 		(at 68.58 25.4)
@@ -4524,7 +4506,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 153.67) (xy 127 154.94)
+			(xy 129.54 153.67) (xy 129.54 154.94)
 		)
 		(stroke
 			(width 0)
@@ -4764,26 +4746,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 97.79) (xy 144.78 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe4b2db-0df4-45c1-a966-798992830326")
-	)
-	(wire
-		(pts
-			(xy 217.17 97.79) (xy 220.98 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32d8c35c-90bb-4f23-8a8e-f7bfbf6a15ef")
-	)
-	(wire
-		(pts
 			(xy 52.07 35.56) (xy 52.07 38.1)
 		)
 		(stroke
@@ -5014,13 +4976,13 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 139.7 97.79)
+			(xy 129.54 97.79) (xy 139.7 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "50c0a881-c508-4317-84b7-b14e77a6e022")
+		(uuid "4fdd7520-99a3-4498-9987-0aac0e044d23")
 	)
 	(wire
 		(pts
@@ -5154,7 +5116,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 97.79) (xy 203.2 99.06)
+			(xy 205.74 97.79) (xy 205.74 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5194,6 +5156,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 153.67) (xy 144.78 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "728517c0-db6d-48de-8e61-722589e345a1")
+	)
+	(wire
+		(pts
 			(xy 172.72 97.79) (xy 176.53 97.79)
 		)
 		(stroke
@@ -5211,6 +5183,16 @@
 			(type default)
 		)
 		(uuid "74e572e3-7da4-4031-a059-8116810659de")
+	)
+	(wire
+		(pts
+			(xy 205.74 97.79) (xy 220.98 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7526f33e-91c7-4c7b-b5f9-6735c6e26ea8")
 	)
 	(wire
 		(pts
@@ -5244,7 +5226,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 97.79) (xy 130.81 99.06)
+			(xy 129.54 97.79) (xy 129.54 99.06)
 		)
 		(stroke
 			(width 0)
@@ -5364,7 +5346,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 97.79) (xy 203.2 97.79)
+			(xy 187.96 97.79) (xy 205.74 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5454,7 +5436,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 97.79) (xy 130.81 97.79)
+			(xy 111.76 97.79) (xy 129.54 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5511,26 +5493,6 @@
 			(type default)
 		)
 		(uuid "9eae749c-ed66-43f9-aa6d-8778de869e7b")
-	)
-	(wire
-		(pts
-			(xy 127 153.67) (xy 140.97 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a3589812-5c6d-4870-8626-7474901089ac")
-	)
-	(wire
-		(pts
-			(xy 140.97 153.67) (xy 140.97 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4364a79-bb6d-4c3f-bc66-dcfc8ef479f3")
 	)
 	(wire
 		(pts
@@ -5624,17 +5586,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 153.67) (xy 144.78 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0e87193-abf7-4250-bed7-0598a5913de9")
-	)
-	(wire
-		(pts
-			(xy 144.78 97.79) (xy 154.94 97.79)
+			(xy 139.7 97.79) (xy 154.94 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5661,16 +5613,6 @@
 			(type default)
 		)
 		(uuid "b742012b-0e34-4fa7-9cdd-d8cab010d9ef")
-	)
-	(wire
-		(pts
-			(xy 217.17 97.79) (xy 217.17 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b847ef0b-8880-4149-8b75-1d2ecc6c4a06")
 	)
 	(wire
 		(pts
@@ -5744,23 +5686,13 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 153.67) (xy 127 153.67)
+			(xy 111.76 153.67) (xy 129.54 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c0acf771-1c71-4af6-aeef-6df36b4da3c0")
-	)
-	(wire
-		(pts
-			(xy 139.7 97.79) (xy 144.78 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c45e7982-8541-41e4-b04f-e313c2d1228b")
 	)
 	(wire
 		(pts
@@ -6071,16 +6003,6 @@
 			(type default)
 		)
 		(uuid "f104a9a1-1d0b-4aad-b430-eb6d69af8d7c")
-	)
-	(wire
-		(pts
-			(xy 203.2 97.79) (xy 217.17 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2817fc2-5e0f-4019-b009-3b9cbe3edfd1")
 	)
 	(wire
 		(pts
@@ -6407,6 +6329,16 @@
 			(justify left bottom)
 		)
 		(uuid "f98f44c1-d890-4ebe-a768-5a240b68c8f8")
+	)
+	(label "ADJ_9V"
+		(at 90.17 163.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2be09e8b-4a48-487d-b3a8-d6fde2a1318a")
 	)
 	(symbol
 		(lib_id "Mechanical:Heatsink_Pad")
@@ -7179,6 +7111,121 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 129.54 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b20a109-62cd-4ca4-a591-cb034b11e63b")
+		(property "Reference" "C1"
+			(at 133.35 100.7109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uC"
+			(at 133.35 103.2509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
+			(at 130.5052 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C220MCL1GB_C433198.pdf"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UWX1C220MCL1GB"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" ""
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "644d4470-7c31-43d2-9422-e2f9a68030cb")
+		)
+		(pin "2"
+			(uuid "010489f5-f08a-402e-b435-1ca76c146e07")
+		)
+		(instances
+			(project "Power_supply"
+				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L_Ferrite")
 		(at 151.13 33.02 90)
 		(unit 1)
@@ -7266,7 +7313,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
-		(at 87.63 153.67 0)
+		(at 163.83 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7275,7 +7322,7 @@
 		(fields_autoplaced yes)
 		(uuid "22a7db91-b046-45d6-add8-524e9accb23c")
 		(property "Reference" "U2"
-			(at 87.63 147.32 0)
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7283,7 +7330,7 @@
 			)
 		)
 		(property "Value" "LM317_TO-220"
-			(at 87.63 149.86 0)
+			(at 163.83 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7291,7 +7338,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 87.63 147.32 0)
+			(at 163.83 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7301,7 +7348,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2003172043_Texas-Instruments-LM317KCS_C496105.pdf"
-			(at 87.63 153.67 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7357,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 87.63 153.67 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +7366,7 @@
 			)
 		)
 		(property "MPN" "LM317KCS"
-			(at 87.63 153.67 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +7375,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 87.63 153.67 0)
+			(at 163.83 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7349,72 +7396,6 @@
 			(project "Power_supply"
 				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
 					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 162.56 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "22e444bd-3f7e-4b35-810e-e9dda60a9240")
-		(property "Reference" "#PWR017"
-			(at 140.97 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 140.97 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbf81bd4-91a1-4d17-aafd-a55a3986d05e")
-		)
-		(instances
-			(project "Power_supply"
-				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -7793,94 +7774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 203.2 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "360a10c6-5979-4194-86e3-e02f61c64cf0")
-		(property "Reference" "C5"
-			(at 206.756 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uC"
-			(at 206.756 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 204.1652 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A106KBHNNNE"
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "OK"
-			(at 203.2 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9716e0c4-a81f-400c-95f7-f8ddadde128f")
-		)
-		(pin "2"
-			(uuid "149f6393-9bb0-43b8-ae9b-b176ca182d90")
-		)
-		(instances
-			(project "Power_supply"
-				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 87.63 172.72 0)
 		(unit 1)
@@ -7947,94 +7840,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 144.78 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3a8ae70d-60ba-4823-b631-a0cf4e4c2abb")
-		(property "Reference" "C18"
-			(at 148.336 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nC"
-			(at 148.336 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 145.7452 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC1206KRX7R9BB104_C82601.pdf"
-			(at 144.78 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 144.78 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CC1206KRX7R9BB104"
-			(at 144.78 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "OK"
-			(at 144.78 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad246f50-cce2-4e39-8846-8f9047acbc16")
-		)
-		(pin "2"
-			(uuid "dfd28f8b-fd39-4d33-ab3c-f8e0239a113b")
-		)
-		(instances
-			(project "Power_supply"
-				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
-					(reference "C18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 111.76 116.84 0)
 		(unit 1)
@@ -8095,6 +7900,121 @@
 			(project "Power_supply"
 				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 205.74 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c251f71-6acc-4cdb-9a9d-a878527380a5")
+		(property "Reference" "C20"
+			(at 209.55 100.7109 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uC"
+			(at 209.55 103.2509 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
+			(at 206.7052 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C220MCL1GB_C433198.pdf"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "UWX1C220MCL1GB"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" ""
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 205.74 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fa7f2a3-4b51-49fa-9aff-8a9cf1d3b537")
+		)
+		(pin "2"
+			(uuid "e0933255-1e73-492d-9d34-f437c449f605")
+		)
+		(instances
+			(project "Power_supply"
+				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -8299,17 +8219,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 130.81 102.87 0)
+		(lib_id "Device:C_Polarized")
+		(at 129.54 158.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "480552bf-a553-4758-8953-af93e4d07b45")
-		(property "Reference" "C1"
-			(at 134.366 101.6 0)
+		(uuid "4575c51b-9d4d-4e0b-ac2f-79a576ff5491")
+		(property "Reference" "C5"
+			(at 133.35 156.5909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8317,8 +8237,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uC"
-			(at 134.366 104.14 0)
+		(property "Value" "22uC"
+			(at 133.35 159.1309 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8326,8 +8246,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 131.7752 106.68 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_5x5.4"
+			(at 130.5052 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8335,8 +8255,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
-			(at 130.81 102.87 0)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C220MCL1GB_C433198.pdf"
+			(at 129.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8345,7 +8265,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 130.81 102.87 0)
+			(at 129.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8353,8 +8273,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL31A106KBHNNNE"
-			(at 130.81 102.87 0)
+		(property "MPN" "UWX1C220MCL1GB"
+			(at 129.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +8283,34 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 130.81 102.87 0)
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN_MOUSER" ""
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R % tol" ""
+			(at 129.54 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "R pwr" ""
+			(at 129.54 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8372,15 +8319,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "5976f520-1359-446a-b7da-c4d5c17a4db4")
+			(uuid "76ed6786-cca8-4a93-b826-18f6a9404b04")
 		)
 		(pin "2"
-			(uuid "cc147860-7aa9-4598-ba46-2c7fb34c1e23")
+			(uuid "59f3c4bd-ca54-4261-887d-a02c547d58fe")
 		)
 		(instances
 			(project "Power_supply"
 				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
-					(reference "C1")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8470,72 +8417,6 @@
 			(project "Power_supply"
 				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
 					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 144.78 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4cc26647-40ad-4627-8a7d-5d374018ba3f")
-		(property "Reference" "#PWR033"
-			(at 144.78 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 144.78 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "087d9a4c-fe82-46f9-95e8-682ab7b19dc6")
-		)
-		(instances
-			(project "Power_supply"
-				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
-					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -10225,7 +10106,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 127 162.56 0)
+		(at 129.54 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10234,7 +10115,7 @@
 		(fields_autoplaced yes)
 		(uuid "80cb3c07-c84f-4623-8937-50d957452cf2")
 		(property "Reference" "#PWR015"
-			(at 127 168.91 0)
+			(at 129.54 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10243,7 +10124,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 127 167.64 0)
+			(at 129.54 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10251,7 +10132,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 127 162.56 0)
+			(at 129.54 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,7 +10141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 162.56 0)
+			(at 129.54 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10269,7 +10150,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 127 162.56 0)
+			(at 129.54 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10624,7 +10505,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 203.2 106.68 0)
+		(at 205.74 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10633,7 +10514,7 @@
 		(fields_autoplaced yes)
 		(uuid "97330adc-d023-476d-a047-a6b3293738d2")
 		(property "Reference" "#PWR014"
-			(at 203.2 113.03 0)
+			(at 205.74 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10642,7 +10523,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 203.2 111.76 0)
+			(at 205.74 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10650,7 +10531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 203.2 106.68 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10659,7 +10540,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 106.68 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10668,7 +10549,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 106.68 0)
+			(at 205.74 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11178,72 +11059,6 @@
 			(project "Power_supply"
 				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 217.17 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b365f53c-6a29-4449-9a7d-ba02fea61a02")
-		(property "Reference" "#PWR016"
-			(at 217.17 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 217.17 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 217.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 217.17 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "76920024-0968-4292-8cb6-135cd23c26ed")
-		)
-		(instances
-			(project "Power_supply"
-				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -12127,7 +11942,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 130.81 106.68 0)
+		(at 129.54 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12136,7 +11951,7 @@
 		(fields_autoplaced yes)
 		(uuid "d7d22481-8f68-4762-b798-373f3b06c1ed")
 		(property "Reference" "#PWR05"
-			(at 130.81 113.03 0)
+			(at 129.54 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12145,7 +11960,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 111.76 0)
+			(at 129.54 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12153,7 +11968,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 130.81 106.68 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12162,7 +11977,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 106.68 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12171,7 +11986,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 130.81 106.68 0)
+			(at 129.54 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12186,94 +12001,6 @@
 			(project "Power_supply"
 				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 140.97 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dae36cad-3a32-413c-bf97-ac1ba15c729d")
-		(property "Reference" "C8"
-			(at 144.526 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uC"
-			(at 144.526 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 141.9352 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
-			(at 140.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 140.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A106KBHNNNE"
-			(at 140.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "OK"
-			(at 140.97 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c19d8398-2535-4aba-a21c-f173749382fa")
-		)
-		(pin "2"
-			(uuid "de861815-f707-4d28-ad4d-f224fc7d38f4")
-		)
-		(instances
-			(project "Power_supply"
-				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
-					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -12434,96 +12161,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 127 158.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e17efc0e-2d46-414c-a50a-8f5b6a791b14")
-		(property "Reference" "C6"
-			(at 130.556 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uC"
-			(at 130.556 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 127.9652 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
-			(at 127 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 127 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A106KBHNNNE"
-			(at 127 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "OK"
-			(at 127 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "172d1fd6-8a18-4472-bdf3-cf8091750176")
-		)
-		(pin "2"
-			(uuid "82b34b0e-6618-46af-8a0e-98d2b4ed0297")
-		)
-		(instances
-			(project "Power_supply"
-				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
-					(reference "C6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Heatsink_Pad")
-		(at 101.6 149.86 0)
+		(at 177.8 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12531,7 +12170,7 @@
 		(dnp no)
 		(uuid "e2e5b54d-d400-4556-af1c-54ce5ca3dd60")
 		(property "Reference" "HS2"
-			(at 105.41 147.955 0)
+			(at 181.61 92.075 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12540,7 +12179,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 105.41 150.495 0)
+			(at 181.61 94.615 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12549,7 +12188,7 @@
 			)
 		)
 		(property "Footprint" "Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm"
-			(at 101.9048 151.13 0)
+			(at 178.1048 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12558,7 +12197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 101.9048 151.13 0)
+			(at 178.1048 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12567,7 +12206,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 149.86 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12768,96 +12407,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 217.17 102.87 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e7dac165-98f9-450f-976d-5056bf390f18")
-		(property "Reference" "C7"
-			(at 220.726 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uC"
-			(at 220.726 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 218.1352 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf"
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CL31A106KBHNNNE"
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Status" "OK"
-			(at 217.17 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9629917b-9b64-4319-a9be-0d48108b6303")
-		)
-		(pin "2"
-			(uuid "95af7dfe-0460-49e7-8de8-c047dac5b6a9")
-		)
-		(instances
-			(project "Power_supply"
-				(path "/edc8412f-0483-47e1-aeb9-21064b18cc9b"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:Heatsink_Pad")
-		(at 177.8 93.98 0)
+		(at 101.6 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12865,7 +12416,7 @@
 		(dnp no)
 		(uuid "ef0fc6e4-322e-42d9-ac05-3ea55cdd63a7")
 		(property "Reference" "HS1"
-			(at 181.61 92.075 0)
+			(at 105.41 147.955 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12874,7 +12425,7 @@
 			)
 		)
 		(property "Value" "Heatsink"
-			(at 181.61 94.615 0)
+			(at 105.41 150.495 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12883,7 +12434,7 @@
 			)
 		)
 		(property "Footprint" "Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm"
-			(at 178.1048 95.25 0)
+			(at 101.9048 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12892,7 +12443,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 178.1048 95.25 0)
+			(at 101.9048 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12901,7 +12452,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 177.8 93.98 0)
+			(at 101.6 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13204,7 +12755,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Linear:LM317_TO-220")
-		(at 163.83 97.79 0)
+		(at 87.63 153.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13213,7 +12764,7 @@
 		(fields_autoplaced yes)
 		(uuid "fabc1b7a-4c8e-423a-97ac-abaa03437c11")
 		(property "Reference" "U1"
-			(at 163.83 91.44 0)
+			(at 87.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13221,7 +12772,7 @@
 			)
 		)
 		(property "Value" "LM317_TO-220"
-			(at 163.83 93.98 0)
+			(at 87.63 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13229,7 +12780,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
-			(at 163.83 91.44 0)
+			(at 87.63 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13239,7 +12790,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2003172043_Texas-Instruments-LM317KCS_C496105.pdf"
-			(at 163.83 97.79 0)
+			(at 87.63 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13248,7 +12799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 97.79 0)
+			(at 87.63 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13257,7 +12808,7 @@
 			)
 		)
 		(property "MPN" "LM317KCS"
-			(at 163.83 97.79 0)
+			(at 87.63 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13266,7 +12817,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 163.83 97.79 0)
+			(at 87.63 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
