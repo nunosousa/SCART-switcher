@@ -6386,6 +6386,26 @@
 		)
 		(uuid "36ce9290-b55a-4da3-b442-9eb250e243d2")
 	)
+	(label "SW_OUT"
+		(at 76.2 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6d1d9cbe-c364-44af-9232-b8c33a4f924d")
+	)
+	(label "SW_IN"
+		(at 50.8 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f155a0ff-74af-40e5-a95d-cea52d5c3c1a")
+	)
 	(symbol
 		(lib_id "Mechanical:Heatsink_Pad")
 		(at 101.6 93.98 0)
