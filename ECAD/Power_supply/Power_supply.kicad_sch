@@ -6396,6 +6396,16 @@
 		)
 		(uuid "6d1d9cbe-c364-44af-9232-b8c33a4f924d")
 	)
+	(label "PRE_FILTER"
+		(at 102.87 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "97a40727-ef47-40d3-a1cc-7cfa44072fd4")
+	)
 	(label "SW_IN"
 		(at 50.8 33.02 0)
 		(effects
