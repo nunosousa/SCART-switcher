@@ -6443,7 +6443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm"
+		(property "Footprint" "Heatsink_custom:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm"
 			(at 101.9048 95.25 0)
 			(effects
 				(font
@@ -12417,7 +12417,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm"
+		(property "Footprint" "Heatsink_custom:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm"
 			(at 178.1048 95.25 0)
 			(effects
 				(font
@@ -12663,7 +12663,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Heatsink:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm"
+		(property "Footprint" "Heatsink_custom:Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm"
 			(at 101.9048 151.13 0)
 			(effects
 				(font

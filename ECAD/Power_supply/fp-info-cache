@@ -1,4 +1,4 @@
-24647966470913369
+24649706186765683
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -58407,6 +58407,13 @@ heatsink
 0
 0
 0
+Heatsink_custom
+Heatsink_Fischer_SK104-STC-STIC_35x13mm_2xDrill2.5mm
+Heatsink, 35mm x 13mm, 2x Fixation 2,5mm Drill, Soldering, Fischer SK104-STC-STIC,
+Heatsink fischer TO-220
+0
+2
+1
 Inductor_SMD
 L_6.3x6.3_H3
 Choke, SMD, 6.3x6.3mm 3mm height
