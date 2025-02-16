@@ -5382,7 +5382,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 33.02) (xy 158.75 33.02)
+			(xy 157.48 33.02) (xy 158.75 33.02)
 		)
 		(stroke
 			(width 0)
@@ -5512,7 +5512,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 33.02) (xy 147.32 33.02)
+			(xy 146.05 33.02) (xy 149.86 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6405,6 +6405,26 @@
 			(justify left bottom)
 		)
 		(uuid "97a40727-ef47-40d3-a1cc-7cfa44072fd4")
+	)
+	(label "L1"
+		(at 134.62 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a4f3a6e5-f0bd-4547-b059-d0f81185ff76")
+	)
+	(label "L2"
+		(at 146.05 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5d9680d-ed3d-4046-ac6a-4ff6bdbd0fc4")
 	)
 	(label "SW_IN"
 		(at 50.8 33.02 0)
@@ -7303,7 +7323,7 @@
 	)
 	(symbol
 		(lib_id "Device:L_Ferrite")
-		(at 151.13 33.02 90)
+		(at 153.67 33.02 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7312,7 +7332,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c2ce7ed-8cef-4282-88a3-7f6393141608")
 		(property "Reference" "L2"
-			(at 151.13 26.67 90)
+			(at 153.67 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7320,7 +7340,7 @@
 			)
 		)
 		(property "Value" "10uL"
-			(at 151.13 29.21 90)
+			(at 153.67 29.21 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7328,7 +7348,7 @@
 			)
 		)
 		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-30xx"
-			(at 151.13 33.02 0)
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7337,7 +7357,7 @@
 			)
 		)
 		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Taiyo-Yuden-NR3015T100M_C87168.pdf"
-			(at 151.13 33.02 0)
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7346,7 +7366,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 33.02 0)
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7355,7 +7375,7 @@
 			)
 		)
 		(property "MPN" "NR3015T100M"
-			(at 151.13 33.02 0)
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7364,7 +7384,7 @@
 			)
 		)
 		(property "Status" "OK"
-			(at 151.13 33.02 0)
+			(at 153.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
