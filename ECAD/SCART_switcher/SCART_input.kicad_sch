@@ -6562,7 +6562,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "140R"
+		(property "Value" "300R"
 			(at 262.382 138.43 0)
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_YAGEO-RC0805FR-07300RL_C114529.pdf"
 			(at 264.16 137.16 0)
 			(effects
 				(font
@@ -6607,7 +6607,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "AC1210JR-071KL"
+		(property "MPN" "RC0805FR-07300RL"
 			(at 264.16 137.16 0)
 			(effects
 				(font

@@ -13489,7 +13489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC1206KKX7R0BB105_C70463.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL31B105KBHNNNE_C1848.pdf"
 			(at 200.66 38.1 0)
 			(effects
 				(font
@@ -13507,7 +13507,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC1206KKX7R0BB105"
+		(property "MPN" "CL31B105KBHNNNE"
 			(at 200.66 38.1 0)
 			(effects
 				(font
