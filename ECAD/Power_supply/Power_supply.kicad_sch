@@ -6369,6 +6369,16 @@
 		)
 		(uuid "22e4515f-85d0-48ba-98e2-e85ed6f04cf2")
 	)
+	(text "12V Fan"
+		(exclude_from_sim no)
+		(at 117.094 67.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "22f3cc3f-d269-4462-ad26-7795673ab1b5")
+	)
 	(text "Power output connector"
 		(exclude_from_sim no)
 		(at 201.93 129.54 0)
@@ -7284,7 +7294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2205311830_UNI-ROYAL-Uniroyal-Elec-0805W8F7150T5E_C17813.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409280130_RESI-PTFR0805B715RP9_C2849330.pdf"
 			(at 163.83 113.03 0)
 			(effects
 				(font
@@ -7302,7 +7312,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0805W8F7150T5E"
+		(property "MPN" "PTFR0805B715RP9"
 			(at 163.83 113.03 0)
 			(effects
 				(font
@@ -9206,7 +9216,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PZ254-1-06-W-8.5"
+		(property "MPN" ""
 			(at 201.93 146.05 0)
 			(effects
 				(font
@@ -10340,7 +10350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_Samsung-Electro-Mechanics-CL21C101JBANNNC_C1790.pdf"
 			(at 97.79 113.03 0)
 			(effects
 				(font
@@ -10350,6 +10360,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL21C101JBANNNC"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Status" "OK"
 			(at 97.79 113.03 0)
 			(effects
 				(font
@@ -11612,7 +11640,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121212_Viking-Tech-ARG05BTC3400_C2681639.pdf"
 			(at 87.63 113.03 0)
 			(effects
 				(font
@@ -11630,7 +11658,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ARG05BTC3400"
 			(at 87.63 113.03 0)
 			(effects
 				(font
@@ -11639,7 +11667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Status" ""
+		(property "Status" "OK"
 			(at 87.63 113.03 0)
 			(effects
 				(font
@@ -13079,7 +13107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-60xx"
+		(property "Footprint" "Inductor_SMD:L_Taiyo-Yuden_NR-80xx"
 			(at 142.24 33.02 0)
 			(effects
 				(font
@@ -13088,7 +13116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2108160930_Taiyo-Yuden-NRS6045T101MMGK_C223018.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2410121518_Taiyo-Yuden-NRS8040T101MJGK_C223045.pdf"
 			(at 142.24 33.02 0)
 			(effects
 				(font
@@ -13106,7 +13134,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "NRS6045T101MMGK"
+		(property "MPN" "NRS8040T101MJGK"
 			(at 142.24 33.02 0)
 			(effects
 				(font
