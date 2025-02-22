@@ -7448,7 +7448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C220MCL1GB_C433198.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409291036_Nichicon-UWT1C220MCL1GB_C445073.pdf"
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -7466,7 +7466,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UWX1C220MCL1GB"
+		(property "MPN" "UWT1C220MCL1GB"
 			(at 129.54 102.87 0)
 			(effects
 				(font
@@ -8243,7 +8243,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C220MCL1GB_C433198.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409291036_Nichicon-UWT1C220MCL1GB_C445073.pdf"
 			(at 205.74 102.87 0)
 			(effects
 				(font
@@ -8261,7 +8261,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UWX1C220MCL1GB"
+		(property "MPN" "UWT1C220MCL1GB"
 			(at 205.74 102.87 0)
 			(effects
 				(font
@@ -8556,7 +8556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C220MCL1GB_C433198.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409291036_Nichicon-UWT1C220MCL1GB_C445073.pdf"
 			(at 129.54 158.75 0)
 			(effects
 				(font
@@ -8574,7 +8574,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UWX1C220MCL1GB"
+		(property "MPN" "UWT1C220MCL1GB"
 			(at 129.54 158.75 0)
 			(effects
 				(font

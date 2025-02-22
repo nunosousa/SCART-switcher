@@ -1,5 +1,5 @@
 "Reference","Value","Datasheet","Footprint","Qty","DNP","MPN","Status"
-"C1,C5,C20","22uC","https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C220MCL1GB_C433198.pdf","Capacitor_SMD:CP_Elec_5x5.4","3","","UWX1C220MCL1GB","OK"
+"C1,C5,C20","22uC","https://www.lcsc.com/datasheet/lcsc_datasheet_2409291036_Nichicon-UWT1C220MCL1GB_C445073.pdf","Capacitor_SMD:CP_Elec_5x5.4","3","","UWT1C220MCL1GB","OK"
 "C2,C6,C13,C16","100nC","https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-CC1206KRX7R9BB104_C82601.pdf","Capacitor_SMD:C_1206_3216Metric","4","","CC1206KRX7R9BB104","OK"
 "C3,C4,C11,C17","10uC","https://datasheet.lcsc.com/lcsc/2304140030_Samsung-Electro-Mechanics-CL31A106KBHNNNE_C13585.pdf","Capacitor_SMD:C_1206_3216Metric","4","","CL31A106KBHNNNE","OK"
 "C9","1000uC","https://datasheet.lcsc.com/lcsc/1912111437_PANASONIC-EEEFT1E102UP_C401766.pdf","Capacitor_SMD:CP_Elec_10x10.5","1","","EEEFT1E102UP","OK"

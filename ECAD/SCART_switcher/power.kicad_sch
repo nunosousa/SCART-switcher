@@ -3608,7 +3608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C100MCL1GB_C445047.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409291036_Nichicon-UWT1C100MCL1GB_C445074.pdf"
 			(at 231.14 88.9 0)
 			(effects
 				(font
@@ -3626,7 +3626,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UWX1C100MCL1GB"
+		(property "MPN" "UWT1C100MCL1GB"
 			(at 231.14 88.9 0)
 			(effects
 				(font
@@ -4619,7 +4619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2311211102_YAGEO-RT0805BRD07976RL_C865714.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409280130_RESI-PTFR0805B976RP9_C2849392.pdf"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -4637,7 +4637,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RT0805BRD07976RL"
+		(property "MPN" "PTFR0805B976RP9"
 			(at 74.93 83.82 0)
 			(effects
 				(font
@@ -5347,7 +5347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Nichicon-UWX1C100MCL1GB_C445047.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2409291036_Nichicon-UWT1C100MCL1GB_C445074.pdf"
 			(at 116.84 88.9 0)
 			(effects
 				(font
@@ -5365,7 +5365,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "UWX1C100MCL1GB"
+		(property "MPN" "UWT1C100MCL1GB"
 			(at 116.84 88.9 0)
 			(effects
 				(font
