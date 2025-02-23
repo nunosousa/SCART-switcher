@@ -484,9 +484,9 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Power_supply.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "Power_supply.wrl"
     },
     "page_layout_descr_file": ""
   },

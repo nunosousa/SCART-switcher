@@ -489,9 +489,9 @@
       "plot": "Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SCART_switcher.step",
       "svg": "",
-      "vrml": ""
+      "vrml": "SCART_switcher.wrl"
     },
     "page_layout_descr_file": ""
   },
